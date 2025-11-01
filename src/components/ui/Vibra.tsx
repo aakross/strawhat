@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/autoplay";
 import "swiper/css";
 import fondovibra from "../../assets/fondovibra.jpg";
 import vibra from "../../assets/svg/vibra.svg";
