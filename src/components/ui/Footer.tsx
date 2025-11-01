@@ -10,7 +10,7 @@ export default function Footer() {
     <>
       <footer className="bg-[#1C1C1C] w-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-white text-center text-2xl sm:text-3xl md:text-4xl py-3">
+          <div className="text-white text-center text-2xl sm:text-3xl md:text-4xl py-3 font-agrandir font-black">
             {t("footer.findus")}
           </div>
           <div className="flex justify-center py-3 space-x-4 sm:space-x-6">
@@ -52,7 +52,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="text-center text-white space-y-2 mt-4">
-            <div>
+            <div className="font-montserrat">
               <a
                 href="https://maps.app.goo.gl/SEUpfE1QhBuUMbP38"
                 className="hover:text-gray-300 transition-colors text-sm sm:text-base"
@@ -63,7 +63,12 @@ export default function Footer() {
                 70934, Puerto Escondido, Oaxaca.
               </a>
             </div>
-            <div className="text-sm sm:text-base">+52 984 204 4034</div>
+            <a
+              href="tel:+529842044034"
+              className="text-sm sm:text-base font-montserrat hover:text-[#D6FF57] transition-colors"
+            >
+              +52 984 204 4034
+            </a>
           </div>
         </div>
 

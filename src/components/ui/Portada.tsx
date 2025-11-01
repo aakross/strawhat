@@ -19,11 +19,16 @@ export default function Portada() {
         </button>
 
         <button className="hover:scale-110 transition-transform duration-300">
-          <img
-            src={pxm}
-            alt="Puerto Escondido"
-            className="w-32 sm:w-40 md:w-48"
-          />
+          <a
+            href="https://hotels.cloudbeds.com/es/reservation/5auK74?currency=mxn"
+            target="_blank"
+          >
+            <img
+              src={pxm}
+              alt="Puerto Escondido"
+              className="w-32 sm:w-40 md:w-48"
+            />
+          </a>
         </button>
 
         <button className="hover:scale-110 transition-transform duration-300">

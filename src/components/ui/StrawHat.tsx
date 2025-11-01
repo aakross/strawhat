@@ -21,28 +21,28 @@ export default function StrawHat() {
       <div className="relative z-10 flex flex-col items-center px-6 py-16 space-y-16 max-w-7xl mx-auto">
         {/* Textos principales */}
         <div className="flex flex-col justify-center items-center text-center space-y-4">
-          <h1 className="text-[#D6FF57] text-3xl md:text-5xl font-bold">
+          <h1 className="text-[#D6FF57] text-3xl md:text-5xl font-lostar">
             {t("strawHat.title")}
           </h1>
 
-          <h4 className="text-lg md:text-2xl font-light">
+          <h4 className="text-lg md:text-2xl text-[#E8F7BA] font-agrandir font-bold">
             <span className="font-semibold">{t("strawHat.subtitle1")}</span>{" "}
             {t("strawHat.subtitle2")}
           </h4>
 
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl md:text-6xl font-bold font-agrandir">
             {t("strawHat.memories")}
           </h1>
 
           <div className="text-sm md:text-base uppercase tracking-widest">
-            <span className="font-semibold">{t("strawHat.since1")}</span>{" "}
+            <span className="font-montserrat">{t("strawHat.since1")}</span>{" "}
             {t("strawHat.since2")}
           </div>
         </div>
 
         {/* Sección de descripción + imagen */}
         <div className="grid md:grid-cols-2 gap-2 w-2/3 ">
-          <div className="leading-relaxed text-justify text-white">
+          <div className="leading-relaxed text-justify text-white font-montserrat">
             {t("strawHat.description")}
           </div>
           <div className="flex justify-center items-center">

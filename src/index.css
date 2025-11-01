@@ -1,1 +1,60 @@
 @import "tailwindcss";
+
+/* === AGRANDIR === */
+@font-face {
+  font-family: "Agrandir";
+  src: url("./fonts/Agrandir-GrandHeavy.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Agrandir";
+  src: url("./fonts/Agrandir-TextBold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* === LOSTAR === */
+@font-face {
+  font-family: "Lostar";
+  src: url("./fonts/Lostar.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* === MONTSERRAT === */
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Configuración de Tailwind CSS v4 en el mismo archivo */
+@theme {
+  /* Definir fuentes personalizadas para usar en Tailwind */
+  --font-agrandir: "Agrandir", sans-serif;
+  --font-lostar: "Lostar", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}

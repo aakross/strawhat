@@ -13,12 +13,12 @@ export default function Header() {
   };
 
   return (
-    <header className="flex w-full bg-[#141414] fixed top-0 z-50 px-4 md:px-10 py-3">
+    <header className="flex w-full bg-[#141414] fixed top-0 z-50 px-4 md:px-10 py-3 font-agrandir ">
       {/* Contenedor principal: separa logo y hamburguesa en móvil */}
       <div className="flex w-full items-center justify-between md:justify-center">
         {/* LOGO */}
-        <div className="flex-shrink-0">
-          <img src={logo} alt="Logo" className="w-[130px] h-auto" />
+        <div className="shrink-0">
+          <img src={logo} alt="straw hat hostels" className="w-[130px] h-auto" />
         </div>
 
         {/* MENÚ DESKTOP */}
