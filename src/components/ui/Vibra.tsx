@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/autoplay";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/autoplay";
 import fondovibra from "../../assets/fondovibra.jpg";
 import vibra from "../../assets/svg/vibra.svg";
 import foto1 from "../../assets/vibra/1.jpg";
@@ -10,40 +11,38 @@ import foto4 from "../../assets/vibra/4.jpg";
 import foto5 from "../../assets/vibra/5.jpg";
 import foto6 from "../../assets/vibra/6.jpg";
 
-export default function Vibra() {
-  // Array de arrays - cada subarray contiene las fotos para cada carrusel
-  const carousels = [
-    [foto1, foto2, foto3], // Fotos para el primer carrusel
-    [foto4, foto5, foto6], // Fotos para el segundo carrusel
-    [foto1, foto2, foto3], // Fotos para el tercer carrusel
-    [foto4, foto5, foto6], // Fotos para el cuarto carrusel
-    [foto1, foto2, foto3], // Fotos para el quinto carrusel
-    [foto4, foto5, foto6], // Fotos para el sexto carrusel
-  ];
+export default function Prueba() {
+  // Arrays de fotos para cada carrusel (excluyendo foto2)
+  const carousel1 = [foto1, foto3, foto4, foto5, foto6];
+  const carousel2 = [foto2,foto3, foto4, foto5]; // Solo foto2 ya que es diferente
+  const carousel3 = [foto3, foto1, foto4, foto5, foto6];
+  const carousel4 = [foto4, foto1, foto3, foto5, foto6];
+  const carousel5 = [foto5, foto1, foto3, foto4, foto6];
+  const carousel6 = [foto6, foto1, foto3, foto4, foto5];
 
   return (
-    <section className="relative w-full h-1/2">
-      {/* Fondo */}
-      <div className="absolute inset-0">
+    <section className="relative w-full">
+      {/* Fondo que crece con el contenido */}
+      <div className="absolute inset-0 z-0">
         <img
           src={fondovibra}
           alt="Fondo Vibra"
-          className="w-full h-full md:h-3/4 object-cover"
+          className="w-full h-full object-cover"
         />
       </div>
 
-      {/* Contenido encima del fondo */}
-      <div className="relative  h-[50%] z-10 flex flex-col items-center px-6 pt-16 space-y-16 max-w-7xl mx-auto">
-        <img src={vibra} alt="" className="w-2/3 md:w-1/4" />
+      <div className="relative z-10 pt-8 pb-16">
+        <img src={vibra} alt="Vibra" className="w-1/4 mx-auto mb-12" />
 
-        {/* 📱 Carrusel solo en móvil */}
-        <div className="md:hidden w-full">
+        {/* 📱 CARRUSEL SOLO PARA MÓVIL */}
+        <div className="md:hidden w-full px-4">
           <Swiper
+            modules={[Autoplay]}
             spaceBetween={16}
             slidesPerView={1.1}
             centeredSlides={true}
             loop={true}
-            autoplay={{ delay: 2500 }}
+            autoplay={{ delay: 2500, disableOnInteraction: false }}
           >
             {[foto1, foto2, foto3, foto4, foto5, foto6].map((foto, i) => (
               <SwiperSlide key={i}>
@@ -57,130 +56,138 @@ export default function Vibra() {
           </Swiper>
         </div>
 
-        {/* 💻 Collage con carruseles individuales solo en desktop */}
-        <div className="hidden md:block w-2/3 relative">
-          <div className="grid grid-cols-12 gap-3 relative">
-            {/* Carrusel 1 - posición original de foto1 */}
-            <div className="col-span-7 h-2/3">
-              <Swiper
-                spaceBetween={0}
-                slidesPerView={1}
-                loop={true}
-                autoplay={{ delay: 3000 }}
-                className="h-full"
-              >
-                {carousels[0].map((foto, index) => (
-                  <SwiperSlide key={index}>
-                    <img src={foto} alt={`Carrusel 1 - Foto ${index + 1}`} className="h-full"/>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
+        {/* 🖥️ COLLAGE SOLO PARA DESKTOP */}
+        <div
+          className="hidden md:block mx-auto w-[1080px] relative"
+          style={{ height: "1500px" }}
+        >
+          {/* === FILA 1 === */}
+          <div className="absolute top-0 left-0 w-[658px] h-[393px]">
+            <Swiper
+              modules={[Autoplay]}
+              spaceBetween={0}
+              slidesPerView={1}
+              loop={true}
+              autoplay={{ delay: 3000, disableOnInteraction: false }}
+              className="h-full"
+            >
+              {carousel1.map((foto, index) => (
+                <SwiperSlide key={index}>
+                  <img
+                    src={foto}
+                    alt={`Carrusel 1 - ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
 
-            {/* Carrusel 2 - posición original de foto2 */}
-            <div className="col-span-5 h-full">
-              <Swiper
-                spaceBetween={0}
-                slidesPerView={1}
-                loop={true}
-                autoplay={{ delay: 350 }}
-                className="h-4/5"
-              >
-                {carousels[1].map((foto, index) => (
-                  <SwiperSlide key={index}>
-                    <img
-                      src={foto}
-                      alt={`Carrusel 2 - Foto ${index + 1}`}
-                      className="h-full"
-                    />
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
+          <div className="absolute top-0 right-0 w-[412px] h-[624px]">
+            <Swiper
+              modules={[Autoplay]}
+              spaceBetween={0}
+              slidesPerView={1}
+              loop={true}
+              autoplay={{ delay: 3500, disableOnInteraction: false }}
+              className="h-full"
+            >
+              {carousel2.map((foto, index) => (
+                <SwiperSlide key={index}>
+                  <img
+                    src={foto}
+                    alt={`Carrusel 2 - ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
 
-            {/* Carrusel 3 - posición original de foto3 */}
-            <div className="col-span-7 -translate-y-52">
-              <Swiper
-                spaceBetween={0}
-                slidesPerView={1}
-                loop={true}
-                autoplay={{ delay: 320 }}
-                className="h-1/2"
-              >
-                {carousels[2].map((foto, index) => (
-                  <SwiperSlide key={index}>
-                    <img
-                      src={foto}
-                      alt={`Carrusel 3 - Foto ${index + 1}`}
-                      className="w-full h-full object-cover"
-                    />
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
+          {/* === FILA 2 === */}
+          <div className="absolute top-[413px] left-0 w-[658px] h-[487px]">
+            <Swiper
+              modules={[Autoplay]}
+              spaceBetween={0}
+              slidesPerView={1}
+              loop={true}
+              autoplay={{ delay: 3200, disableOnInteraction: false }}
+              className="h-full"
+            >
+              {carousel3.map((foto, index) => (
+                <SwiperSlide key={index}>
+                  <img
+                    src={foto}
+                    alt={`Carrusel 3 - ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
 
-            {/* Carrusel 4 - posición original de foto4 */}
-            <div className="col-span-4 absolute top-[512px] w-[405px] h-[400px] right-0">
-              <Swiper
-                spaceBetween={0}
-                slidesPerView={1}
-                loop={true}
-                autoplay={{ delay: 380 }}
-                className="h-full"
-              >
-                {carousels[3].map((foto, index) => (
-                  <SwiperSlide key={index}>
-                    <img
-                      src={foto}
-                      alt={`Carrusel 4 - Foto ${index + 1}`}
-                      className="w-full h-full object-cover"
-                    />
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
+          <div className="absolute top-[633px] right-0 w-[660px] h-[512px]">
+            <Swiper
+              modules={[Autoplay]}
+              spaceBetween={0}
+              slidesPerView={1}
+              loop={true}
+              autoplay={{ delay: 3800, disableOnInteraction: false }}
+              className="h-full"
+            >
+              {carousel4.map((foto, index) => (
+                <SwiperSlide key={index}>
+                  <img
+                    src={foto}
+                    alt={`Carrusel 4 - ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
 
-            {/* Carrusel 5 - posición original de foto5 */}
-            <div className="col-span-6 -translate-y-[565px] h-[403px]">
-              <Swiper
-                spaceBetween={0}
-                slidesPerView={1}
-                loop={true}
-                autoplay={{ delay: 340 }}
-                className="h-full"
-              >
-                {carousels[4].map((foto, index) => (
-                  <SwiperSlide key={index}>
-                    <img
-                      src={foto}
-                      alt={`Carrusel 5 - Foto ${index + 1}`}
-                      className="w-full h-full object-cover"
-                    />
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
+          {/* === FILA 3 === */}
+          <div className="absolute top-[910px] left-0 w-[413px] h-[508px]">
+            <Swiper
+              modules={[Autoplay]}
+              spaceBetween={0}
+              slidesPerView={1}
+              loop={true}
+              autoplay={{ delay: 3400, disableOnInteraction: false }}
+              className="h-full"
+            >
+              {carousel5.map((foto, index) => (
+                <SwiperSlide key={index}>
+                  <img
+                    src={foto}
+                    alt={`Carrusel 5 - ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
 
-            {/* Carrusel 6 - posición original de foto6 */}
-            <div className="col-span-6 top-[925px] right-0 w-[405px] h-[280px] absolute">
-              <Swiper
-                spaceBetween={0}
-                slidesPerView={1}
-                loop={true}
-                autoplay={{ delay: 360 }}
-                className="h-full"
-              >
-                {carousels[5].map((foto, index) => (
-                  <SwiperSlide key={index}>
-                    <img
-                      src={foto}
-                      alt={`Carrusel 6 - Foto ${index + 1}`}
-                      className="w-full h-full object-cover"
-                    />
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
+          <div className="absolute top-[1155px] right-0 w-[660px] h-[263px]">
+            <Swiper
+              modules={[Autoplay]}
+              spaceBetween={0}
+              slidesPerView={1}
+              loop={true}
+              autoplay={{ delay: 3600, disableOnInteraction: false }}
+              className="h-full"
+            >
+              {carousel6.map((foto, index) => (
+                <SwiperSlide key={index}>
+                  <img
+                    src={foto}
+                    alt={`Carrusel 6 - ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </div>
