@@ -1,6 +1,9 @@
+import Footer from "./components/ui/Footer";
 import Header from "./components/ui/Header";
 import Portada from "./components/ui/Portada";
 import StrawHat from "./components/ui/StrawHat";
+import Vibra from "./components/ui/Vibra";
+import Volutariado from "./components/ui/Volutariado";
 
 function App() {
   return (
@@ -8,6 +11,9 @@ function App() {
       <Header />
       <Portada />
       <StrawHat />
+      <Vibra />
+      <Volutariado />
+      <Footer />
     </>
   );
 }
