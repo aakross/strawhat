@@ -1,4 +1,3 @@
-import React from "react";
 import Footer from "../components/ui/Footer";
 import Volutariado from "../components/ui/Volutariado";
 import StrawHat from "../components/ui/StrawHat";
