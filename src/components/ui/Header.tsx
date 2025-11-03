@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../../assets/logo.png";
 import { useTranslation } from "react-i18next";
-import { Menu, X } from "lucide-react"; // íconos bonitos y ligeros
+import { Menu, X } from "lucide-react";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -18,7 +18,11 @@ export default function Header() {
       <div className="flex w-full items-center justify-between md:justify-center">
         {/* LOGO */}
         <div className="shrink-0">
-          <img src={logo} alt="straw hat hostels" className="w-[130px] h-auto" />
+          <img
+            src={logo}
+            alt="straw hat hostels"
+            className="w-[130px] h-auto"
+          />
         </div>
 
         {/* MENÚ DESKTOP */}
@@ -27,8 +31,12 @@ export default function Header() {
           <h1>{t("vibe")}</h1>
           <h1>{t("volunteer")}</h1>
           <h1>{t("contact")}</h1>
-          <h1 className="text-yellow-400 font-semibold">{t("bookNow")}</h1>
-
+          <a
+            href="https://hotels.cloudbeds.com/es/reservation/5auK74?currency=mxn"
+            target="_blank"
+          >
+            <h1 className="text-yellow-400 font-semibold">{t("bookNow")}</h1>
+          </a>
           {/* Selector de idioma */}
           <div className="flex items-center gap-2 ml-4">
             <button

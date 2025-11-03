@@ -25,18 +25,20 @@ export default function StrawHat() {
             {t("strawHat.title")}
           </h1>
 
-          <h4 className="text-lg md:text-2xl text-[#E8F7BA] font-agrandir font-bold">
-            <span className="font-semibold">{t("strawHat.subtitle1")}</span>{" "}
-            {t("strawHat.subtitle2")}
+          <h4 className="text-lg md:text-2xl text-[#E8F7BA]">
+            <span className="font-bold font-agrandir">
+              {t("strawHat.subtitle1")}
+            </span>{" "}
+            <span className="fon">{t("strawHat.subtitle2")}</span>
           </h4>
 
           <h1 className="text-4xl md:text-6xl font-bold font-agrandir">
             {t("strawHat.memories")}
           </h1>
 
-          <div className="text-sm md:text-base uppercase tracking-widest">
+          <div className="text-sm md:text-base uppercase tracking-widest text-[#D6FF57]">
             <span className="font-montserrat">{t("strawHat.since1")}</span>{" "}
-            {t("strawHat.since2")}
+            <span className="font-montserrat font-bold">{t("strawHat.since2")}</span>
           </div>
         </div>
 

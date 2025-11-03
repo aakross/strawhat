@@ -20,7 +20,7 @@
 /* === LOSTAR === */
 @font-face {
   font-family: "Lostar";
-  src: url("./fonts/Lostar.otf") format("opentype");
+  src: url("./fonts/Lostar.ttf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -51,9 +51,7 @@
   font-display: swap;
 }
 
-/* Configuración de Tailwind CSS v4 en el mismo archivo */
 @theme {
-  /* Definir fuentes personalizadas para usar en Tailwind */
   --font-agrandir: "Agrandir", sans-serif;
   --font-lostar: "Lostar", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;

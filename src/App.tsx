@@ -1,23 +1,7 @@
-import Footer from "./components/ui/Footer";
-import Header from "./components/ui/Header";
-import Portada from "./components/ui/Portada";
-// import Prueba from "./components/ui/prueba";
-import StrawHat from "./components/ui/StrawHat";
-import Vibra from "./components/ui/Vibra";
-import Volutariado from "./components/ui/Volutariado";
+import AppRouter from "./router/AppRouter";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <Portada />
-      <StrawHat />
-      <Vibra />
-      {/* <Prueba /> */}
-      <Volutariado />
-      <Footer />
-    </>
-  );
+  return <AppRouter />;
 }
 
 export default App;
