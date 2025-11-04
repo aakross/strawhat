@@ -5,9 +5,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useTranslation } from "react-i18next";
 import fondo from "../../../assets/fondovibra.jpg";
-import alo1 from "../../../assets/pxm/alo1.jpg";
+import alo1 from "../../../assets/pxm/alo1.png";
 import alo2 from "../../../assets/pxm/alo2.jpg";
-import alo3 from "../../../assets/pxm/alo3.jpg";
+import alo3 from "../../../assets/pxm/alo3.png";
+import alo4 from "../../../assets/pxm/alo4.jpg";
 
 // ... tus imports existentes
 
@@ -35,7 +36,7 @@ export default function Alojamiento() {
     },
     {
       id: 2,
-      image: alo3, // Asegúrate de importar alo2
+      image: alo2, // Asegúrate de importar alo2
       title: t("pxm.female8Title"),
       rate: t("pxm.female8Rate"),
       features: [
@@ -52,7 +53,7 @@ export default function Alojamiento() {
     },
     {
       id: 3,
-      image: alo1, // Asegúrate de importar alo2
+      image: alo3, // Asegúrate de importar alo2
       title: t("pxm.mixed6Title"),
       rate: t("pxm.mixed6Rate"),
       features: [
@@ -71,7 +72,7 @@ export default function Alojamiento() {
     },
     {
       id: 4,
-      image: alo2, // Asegúrate de importar alo2
+      image: alo4, // Asegúrate de importar alo2
       title: t("pxm.queenTitle"),
       rate: t("pxm.queenRate"),
       features: [

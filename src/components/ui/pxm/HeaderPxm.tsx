@@ -4,7 +4,11 @@ import { useTranslation } from "react-i18next";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 
-export default function HeaderPxm() {
+type HeaderPxmProps = {
+  onNavigate: (section: string) => void;
+};
+
+export default function HeaderPxm({ onNavigate }: HeaderPxmProps) {
   const [open, setOpen] = useState(false);
   const { i18n } = useTranslation();
   const { t } = useTranslation();
@@ -30,11 +34,19 @@ export default function HeaderPxm() {
 
           {/* MENÚ DESKTOP */}
           <nav className="hidden md:flex text-white items-center gap-5 ml-20">
-            <h1>{t("header.accommodation")}</h1>
-            <h1>{t("header.activities")}</h1>
-            <h1>{t("header.experiences")}</h1>
-            <h1>{t("header.volunteer")}</h1>
-            <h1>{t("header.contact")}</h1>
+            <h1 onClick={() => onNavigate("accommodation")}>
+              {t("header.accommodation")}
+            </h1>
+            <h1 onClick={() => onNavigate("activities")}>
+              {t("header.activities")}
+            </h1>
+            <h1 onClick={() => onNavigate("experiences")}>
+              {t("header.experiences")}
+            </h1>
+            <h1 onClick={() => onNavigate("volunteer")}>
+              {t("header.volunteer")}
+            </h1>
+            <h1 onClick={() => onNavigate("contact")}>{t("header.contact")}</h1>
             {/* <h1 className="text-yellow-400 font-semibold">{t("bookNow")}</h1> */}
 
             {/* Selector de idioma */}

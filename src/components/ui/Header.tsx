@@ -3,7 +3,11 @@ import logo from "../../assets/logo.png";
 import { useTranslation } from "react-i18next";
 import { Menu, X } from "lucide-react";
 
-export default function Header() {
+type HeaderProps = {
+  onNavigate: (section: string) => void;
+};
+
+export default function Header({ onNavigate }: HeaderProps) {
   const [open, setOpen] = useState(false);
   const { i18n } = useTranslation();
   const { t } = useTranslation();
@@ -27,10 +31,10 @@ export default function Header() {
 
         {/* MENÚ DESKTOP */}
         <nav className="hidden md:flex text-white items-center gap-5 ml-20">
-          <h1>{t("strawhat")}</h1>
-          <h1>{t("vibe")}</h1>
-          <h1>{t("volunteer")}</h1>
-          <h1>{t("contact")}</h1>
+          <h1 onClick={() => onNavigate("strawhat")}>{t("strawhat")}</h1>
+          <h1 onClick={() => onNavigate("vibra")}>{t("vibe")}</h1>
+          <h1 onClick={() => onNavigate("voluntariado")}>{t("volunteer")}</h1>
+          <h1 onClick={() => onNavigate("contacto")}>{t("contact")}</h1>
           <a
             href="https://hotels.cloudbeds.com/es/reservation/5auK74?currency=mxn"
             target="_blank"
