@@ -77,10 +77,10 @@ export default function Header({ onNavigate }: HeaderProps) {
       {/* MENÚ MÓVIL */}
       {open && (
         <div className="absolute top-[90px] left-0 w-full bg-[#141414] text-white flex flex-col items-center gap-6 py-6 md:hidden">
-          <h1>{t("strawhat")}</h1>
-          <h1>{t("vibe")}</h1>
-          <h1>{t("volunteer")}</h1>
-          <h1>{t("contact")}</h1>
+          <h1 onClick={() => onNavigate("strawhat")}>{t("strawhat")}</h1>
+          <h1 onClick={() => onNavigate("vibra")}>{t("vibe")}</h1>
+          <h1 onClick={() => onNavigate("voluntariado")}>{t("volunteer")}</h1>
+          <h1 onClick={() => onNavigate("contacto")}>{t("contact")}</h1>
           <h1 className="text-yellow-400 font-semibold">{t("bookNow")}</h1>
 
           {/* Selector de idioma móvil */}

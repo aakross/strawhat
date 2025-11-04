@@ -8,8 +8,8 @@ export default function Volutariado() {
     <>
       <section className="bg-[#232323] grid justify-center w-full py-3 text-white">
         <div className="grid grid-cols-1 md:grid-cols-2 h-full">
-          <div className="flex justify-center md:justify-end">
-            <img src={voluntario} alt="" className="w-2/3 md:w-1/2" />
+          <div className="flex justify-center items-center md:justify-end">
+            <img src={voluntario} alt="" className="w-2/3 md:w-[400px] " />
           </div>
           <div className="w-full md:w-2/3 px-2 lg:px-4 order-1 lg:order-2 mb-8 lg:mb-0">
             <div className="font-montserrat font-semibold pt-4 mb-5 text-xl lg:text-2xl text-center lg:text-left">

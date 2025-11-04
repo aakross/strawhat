@@ -85,10 +85,10 @@ export default function HeaderPxm({ onNavigate }: HeaderPxmProps) {
         {/* MENÚ MÓVIL */}
         {open && (
           <div className="absolute top-[90px] left-0 w-full bg-[#141414] text-white flex flex-col items-center gap-6 py-6 md:hidden">
-            <h1>{t("strawhat")}</h1>
-            <h1>{t("vibe")}</h1>
-            <h1>{t("volunteer")}</h1>
-            <h1>{t("contact")}</h1>
+            <h1 onClick={() => onNavigate("accommodation")}>{t("header.accommodation")}</h1>
+            <h1 onClick={() => onNavigate("activities")}>{t("header.activities")}</h1>
+            <h1 onClick={() => onNavigate("experiences")}>{t("header.experiences")}</h1>
+            <h1>{t("header.volunteer")}</h1>
             <h1 className="text-yellow-400 font-semibold">{t("bookNow")}</h1>
 
             {/* Selector de idioma móvil */}
