@@ -51,6 +51,9 @@ export default function Pxm() {
       <div>
         <Instalaciones />
       </div>
+      <div>
+        <CollagePxm />
+      </div>
       <div ref={experienciasRef}>
         <Experiencias />
       </div>

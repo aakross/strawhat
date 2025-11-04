@@ -30,7 +30,7 @@ export default function Header({ onNavigate }: HeaderProps) {
         </div>
 
         {/* MENÚ DESKTOP */}
-        <nav className="hidden md:flex text-white items-center gap-5 ml-20">
+        <nav className="hidden md:flex text-white items-center gap-5 ml-20 cursor-pointer">
           <h1 onClick={() => onNavigate("strawhat")}>{t("strawhat")}</h1>
           <h1 onClick={() => onNavigate("vibra")}>{t("vibe")}</h1>
           <h1 onClick={() => onNavigate("voluntariado")}>{t("volunteer")}</h1>

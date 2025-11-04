@@ -33,7 +33,7 @@ export default function HeaderPxm({ onNavigate }: HeaderPxmProps) {
           </nav>
 
           {/* MENÚ DESKTOP */}
-          <nav className="hidden md:flex text-white items-center gap-5 ml-20">
+          <nav className="hidden md:flex text-white items-center gap-5 ml-20 cursor-pointer">
             <h1 onClick={() => onNavigate("accommodation")}>
               {t("header.accommodation")}
             </h1>

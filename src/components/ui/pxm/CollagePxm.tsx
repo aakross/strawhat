@@ -29,7 +29,7 @@ export default function CollagePxm() {
           />
         </div>
         <div className="relative z-10 pt-8 pb-16">
-          <div className="w-full text-center mx-auto mb-12 font-agrandir text-3xl md:text-[40pt] font-bold">
+          <div className="w-full text-center mx-auto mb-12 font-agrandir text-3xl md:text-[40pt] font-black">
             {t("pxm.amenitiesTitle")}
           </div>
           {/* 📱 CARRUSEL SOLO PARA MÓVIL */}
