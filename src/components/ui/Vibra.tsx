@@ -10,15 +10,23 @@ import foto3 from "../../assets/vibra/3.jpg";
 import foto4 from "../../assets/vibra/4.jpg";
 import foto5 from "../../assets/vibra/5.jpg";
 import foto6 from "../../assets/vibra/6.jpg";
+import foto7 from "../../assets/vibra/7.png";
+import foto8 from "../../assets/vibra/8.png";
+import foto9 from "../../assets/vibra/9.png";
+import foto10 from "../../assets/vibra/10.png";
+import foto11 from "../../assets/vibra/11.png";
+import foto12 from "../../assets/vibra/12.png";
+import foto13 from "../../assets/vibra/13.png";
+
 
 export default function Prueba() {
   // Arrays de fotos para cada carrusel (excluyendo foto2)
-  const carousel1 = [foto1, foto3, foto4, foto5, foto6];
-  const carousel2 = [foto2,foto3, foto4, foto5]; // Solo foto2 ya que es diferente
-  const carousel3 = [foto3, foto1, foto4, foto5, foto6];
-  const carousel4 = [foto4, foto1, foto3, foto5, foto6];
-  const carousel5 = [foto5, foto1, foto3, foto4, foto6];
-  const carousel6 = [foto6, foto1, foto3, foto4, foto5];
+  const carousel1 = [foto1, foto7, foto8, foto9, foto10];
+  const carousel2 = [foto2, foto11, foto12, foto13];
+  const carousel3 = [foto3, foto4, foto5, foto6];
+  const carousel4 = [foto4, foto1, foto2, foto3];
+  const carousel5 = [foto5, foto6, foto7, foto8];
+  const carousel6 = [foto6, foto11, foto12, foto13];
 
   return (
     <section className="relative w-full">

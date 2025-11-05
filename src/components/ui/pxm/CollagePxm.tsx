@@ -4,20 +4,27 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import fondovibra from "../../../assets/fondovibra.jpg";
 import { useTranslation } from "react-i18next";
-import col1 from "../../../assets/pxm/col1.jpg";
-import col2 from "../../../assets/pxm/col2.jpg";
-import col3 from "../../../assets/pxm/col3.jpg";
-import col4 from "../../../assets/pxm/col4.jpg";
+import col1 from "../../../assets/pxm/col1.webp";
+import col2 from "../../../assets/pxm/col2.webp";
+import col3 from "../../../assets/pxm/col3.webp";
+import col4 from "../../../assets/pxm/col4.webp";
 import col5 from "../../../assets/pxm/col5.jpg";
+import col6 from "../../../assets/pxm/col6.png";
+import col7 from "../../../assets/pxm/col7.png";
+import col8 from "../../../assets/pxm/col8.png";
+import col9 from "../../../assets/pxm/col9.png";
+import col10 from "../../../assets/pxm/col10.png";
+import col11 from "../../../assets/pxm/col11.png";
+import col12 from "../../../assets/pxm/col12.png";
 
 export default function CollagePxm() {
   const { t } = useTranslation();
-  const carousel1 = [col1, col2, col3, col4];
-  const carousel2 = [col2, col1, col3, col4];
-  const carousel3 = [col3, col2, col3, col4];
-  const carousel4 = [col4, col2, col3, col4];
-  const carousel5 = [col5, col2, col3, col4];
-  const carousel6 = [col1, col2, col3, col4];
+ const carousel1 = [col1, col2, col3, col4];
+  const carousel2 = [col5, col6, col7, col8];
+  const carousel3 = [col9, col10, col11, col12];
+  const carousel4 = [col2, col5, col8, col11];
+  const carousel5 = [col3, col6, col9, col12];
+  const carousel6 = [col4, col7, col10];
   return (
     <>
       <section className="relative w-full">
