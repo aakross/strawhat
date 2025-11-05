@@ -9,6 +9,7 @@ import alo1 from "../../../assets/pxm/alo1.png";
 import alo2 from "../../../assets/pxm/alo2.jpg";
 import alo3 from "../../../assets/pxm/alo3.png";
 import alo4 from "../../../assets/pxm/alo4.jpg";
+import reservaalo from "../../../assets/pxm/svg/reservaalo.svg";
 
 // ... tus imports existentes
 
@@ -159,7 +160,7 @@ export default function Alojamiento() {
                       <span className="font-montserrat font-semibold text-lg sm:text-xl lg:text-2xl  block mb-4 sm:mb-6">
                         {slide.rate}
                       </span>
-                      <p className="font-montserrat text-gray-700 leading-relaxed text-sm sm:text-base lg:text-lg">
+                      <p className="font-montserrat text-gray-700 leading-relaxed text-sm sm:text-base lg:text-md">
                         {slide.features.join(", ")}
                       </p>
                     </div>
@@ -171,8 +172,9 @@ export default function Alojamiento() {
                         rel="noopener noreferrer"
                         className="inline-block hover:scale-105 transition-transform duration-300"
                       >
-                        <button className="bg-[#141414] font-agrandir text-white rounded-full py-3 px-8 text-base sm:text-lg hover:bg-[#333] transition cursor-pointer">
-                          {t("bookNow")}
+                        <button className="bg-[#141414] font-agrandir text-white rounded-full text-base sm:text-lg hover:bg-[#333] transition cursor-pointer">
+                          {/* {t("bookNow")} */}
+                          <img src={reservaalo} alt="" className="w-full"/>
                         </button>
                       </a>
                     </div>
