@@ -34,39 +34,65 @@ export default function HeaderPxm({ onNavigate }: HeaderPxmProps) {
 
           {/* MENÚ DESKTOP */}
           <nav className="hidden md:flex text-white items-center gap-5 ml-20 cursor-pointer">
-            <h1 onClick={() => onNavigate("accommodation")}>
+            {/* Elementos de navegación con efectos hover */}
+            <h1
+              onClick={() => onNavigate("accommodation")}
+              className="relative group font-agrandir font-black transition-all duration-300 hover:text-yellow-400"
+            >
               {t("header.accommodation")}
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
             </h1>
-            <h1 onClick={() => onNavigate("activities")}>
-              {t("header.activities")}
-            </h1>
-            <h1 onClick={() => onNavigate("experiences")}>
-              {t("header.experiences")}
-            </h1>
-            <h1 onClick={() => onNavigate("volunteer")}>
-              {t("header.volunteer")}
-            </h1>
-            <h1 onClick={() => onNavigate("contact")}>{t("header.contact")}</h1>
-            {/* <h1 className="text-yellow-400 font-semibold">{t("bookNow")}</h1> */}
 
-            {/* Selector de idioma */}
+            <h1
+              onClick={() => onNavigate("activities")}
+              className="relative group font-agrandir font-black transition-all duration-300 hover:text-yellow-400"
+            >
+              {t("header.activities")}
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+            </h1>
+
+            <h1
+              onClick={() => onNavigate("experiences")}
+              className="relative group font-agrandir font-black transition-all duration-300 hover:text-yellow-400"
+            >
+              {t("header.experiences")}
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+            </h1>
+
+            <h1
+              onClick={() => onNavigate("volunteer")}
+              className="relative group font-agrandir font-black transition-all duration-300 hover:text-yellow-400"
+            >
+              {t("header.volunteer")}
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+            </h1>
+
+            <h1
+              onClick={() => onNavigate("contact")}
+              className="relative group font-agrandir font-black transition-all duration-300 hover:text-yellow-400"
+            >
+              {t("header.contact")}
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+            </h1>
+
+            {/* Selector de idioma con efectos mejorados */}
             <div className="flex items-center gap-2 ml-4">
               <button
                 onClick={() => changeLanguage("es")}
-                className={`px-2 py-1 rounded ${
+                className={`px-3 py-1 rounded-lg transition-all duration-300 ${
                   i18n.language === "es"
-                    ? "bg-yellow-400 text-black font-semibold"
-                    : "text-white hover:text-yellow-400"
+                    ? "bg-yellow-400 text-black font-semibold shadow-lg"
+                    : "text-white hover:text-white hover:bg-yellow-400 hover:bg-opacity-20 border border-transparent hover:border-yellow-400"
                 }`}
               >
                 ES
               </button>
               <button
                 onClick={() => changeLanguage("en")}
-                className={`px-2 py-1 rounded ${
+                className={`px-3 py-1 rounded-lg transition-all duration-300 ${
                   i18n.language === "en"
-                    ? "bg-yellow-400 text-black font-semibold"
-                    : "text-white hover:text-yellow-400"
+                    ? "bg-yellow-400 text-black font-semibold shadow-lg"
+                    : "text-white  hover:text-white hover:bg-yellow-400 hover:bg-opacity-20 border border-transparent hover:border-yellow-400"
                 }`}
               >
                 EN
@@ -85,9 +111,15 @@ export default function HeaderPxm({ onNavigate }: HeaderPxmProps) {
         {/* MENÚ MÓVIL */}
         {open && (
           <div className="absolute top-[90px] left-0 w-full bg-[#141414] text-white flex flex-col items-center gap-6 py-6 md:hidden">
-            <h1 onClick={() => onNavigate("accommodation")}>{t("header.accommodation")}</h1>
-            <h1 onClick={() => onNavigate("activities")}>{t("header.activities")}</h1>
-            <h1 onClick={() => onNavigate("experiences")}>{t("header.experiences")}</h1>
+            <h1 onClick={() => onNavigate("accommodation")}>
+              {t("header.accommodation")}
+            </h1>
+            <h1 onClick={() => onNavigate("activities")}>
+              {t("header.activities")}
+            </h1>
+            <h1 onClick={() => onNavigate("experiences")}>
+              {t("header.experiences")}
+            </h1>
             <h1>{t("header.volunteer")}</h1>
             <h1 className="text-yellow-400 font-semibold">{t("bookNow")}</h1>
 

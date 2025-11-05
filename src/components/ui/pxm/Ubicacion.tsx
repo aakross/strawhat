@@ -54,7 +54,7 @@ export default function Ubicacion() {
           <div className="lg:col-span-4 space-y-4 md:space-y-6 lg:pl-4 text-center lg:text-left">
             {/* Título recomendaciones */}
             <div>
-              <h2 className="font-montserrat text-[#D6FF57] font-bold text-2xl md:text-3xl lg:text-4xl mb-3 md:mb-4">
+              <h2 className="font-montserrat font-extrabold text-[#D6FF57] text-2xl md:text-3xl lg:text-4xl mb-3 md:mb-4">
                 {t("pxm.recommendationsTitle")}
               </h2>
             </div>

@@ -17,6 +17,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Agrandir";
+  src: url("./fonts/Agrandir-Regular.otf") format("opentype"); /* o el nombre correcto del archivo */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* === LOSTAR === */
 @font-face {
   font-family: "Lostar";
@@ -31,6 +39,14 @@
   font-family: "Montserrat";
   src: url("./fonts/Montserrat-Black.ttf") format("truetype");
   font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-ExtraBold.ttf") format("truetype"); /* ← NUEVO */
+  font-weight: 800;
   font-style: normal;
   font-display: swap;
 }

@@ -16,7 +16,7 @@ export default function Portada() {
       {/* Contenedor de botones sobre la imagen */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col md:flex-row items-center gap-6 md:gap-12">
         <button className="hover:scale-110 transition-transform duration-300">
-          <img src={tulum} alt="Tulum" className="w-32 sm:w-40 md:w-48" />
+          <img src={tulum} alt="Tulum" className="w-32 sm:w-40 md:w-[500px]" />
         </button>
 
         <button className="hover:scale-110 transition-transform duration-300">
@@ -28,7 +28,7 @@ export default function Portada() {
             <img
               src={pxm}
               alt="Puerto Escondido"
-              className="w-32 sm:w-40 md:w-48"
+              className="w-32 sm:w-40 md:w-[500px]"
             />
           </Link>
 
@@ -36,7 +36,7 @@ export default function Portada() {
         </button>
 
         <button className="hover:scale-110 transition-transform duration-300">
-          <img src={cdmx} alt="CDMX" className="w-32 sm:w-40 md:w-48" />
+          <img src={cdmx} alt="CDMX" className="w-32 sm:w-40 md:w-[500px]" />
         </button>
       </div>
     </section>

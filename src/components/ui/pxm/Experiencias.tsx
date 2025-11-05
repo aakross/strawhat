@@ -15,7 +15,7 @@ export default function Experiencias() {
 
   return (
     <>
-      <section className="relative w-full h-[50vh] md:min-h-[110vh] overflow-hidden">
+      <section className="relative w-full h-[65vh] md:min-h-[110vh] overflow-hidden">
         <img
           src={fondovia}
           alt=""
@@ -39,11 +39,11 @@ export default function Experiencias() {
             <div className="flex justify-center items-center space-x-4 md:space-x-6 lg:space-x-8">
               {/* ← Menos espacio horizontal */}
               {primeraFila.map((imagen, index) => (
-                <div key={index} className="flex justify-center">
+                <div key={index} className="flex justify-center ">
                   <img
                     src={imagen}
                     alt={`Viajero ${index + 1}`}
-                    className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 xl:w-64 xl:h-64 object-contain hover:scale-110 transition-transform duration-300"
+                    className="w-28 h-28 md:w-40 md:h-40 lg:w-[400px] lg:h-full object-contain hover:scale-110 transition-transform duration-300"
                   />
                 </div>
               ))}
@@ -56,7 +56,7 @@ export default function Experiencias() {
                   <img
                     src={imagen}
                     alt={`Viajero ${index + 4}`}
-                    className="w-28 h-28 md:w-40 md:h-40 lg:w-56 lg:h-56 xl:w-64 xl:h-64 object-contain hover:scale-110 transition-transform duration-300"
+                    className="w-28 h-28 md:w-40 md:h-40 lg:w-[400px] lg:h-full object-contain hover:scale-110 transition-transform duration-300"
                   />
                 </div>
               ))}

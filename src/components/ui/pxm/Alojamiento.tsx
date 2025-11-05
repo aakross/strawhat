@@ -105,7 +105,7 @@ export default function Alojamiento() {
           <span className="font-agrandir font-black text-2xl sm:text-3xl lg:text-4xl xl:text-[36pt] mt-2 sm:mt-4">
             {t("pxm.roomsSubtitle")}
           </span>
-          <span className="font-agrandir font-extralight text-base sm:text-lg lg:text-xl xl:text-[18pt] mt-3 sm:mt-4 max-w-4xl mx-auto px-2">
+          <span className="font-agrandir font-normal text-base sm:text-lg lg:text-xl xl:text-[23pt] mt-3 sm:mt-4 max-w-4xl mx-auto px-2">
             {t("pxm.roomsDescription")}
           </span>
         </div>

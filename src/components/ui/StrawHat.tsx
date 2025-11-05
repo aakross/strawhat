@@ -32,7 +32,7 @@ export default function StrawHat() {
             <span className="fon">{t("strawHat.subtitle2")}</span>
           </h4>
 
-          <h1 className="text-4xl md:text-6xl font-bold font-agrandir">
+          <h1 className="text-4xl md:text-6xl font-black font-agrandir">
             {t("strawHat.memories")}
           </h1>
 

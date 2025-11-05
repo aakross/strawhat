@@ -30,7 +30,7 @@ export default function PortadaPxm() {
           </span>
 
           {/* Descripción */}
-          <span className="w-full sm:w-3/4 md:w-1/2 font-agrandir font-semibold text-white text-center text-base sm:text-[15pt]">
+          <span className="w-full sm:w-3/4 md:w-1/2 font-agrandir font-normal text-white text-center text-base sm:text-[15pt] md:text-[23pt]">
             {t("pxm.description")}
           </span>
 

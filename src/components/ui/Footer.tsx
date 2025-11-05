@@ -64,10 +64,10 @@ export default function Footer() {
               </a>
             </div>
             <a
-              href="tel:+529842044034"
+              href="tel:+529715642523"
               className="text-sm sm:text-base font-montserrat hover:text-[#D6FF57] transition-colors"
             >
-              +52 984 204 4034
+              +52 971 564 2523
             </a>
           </div>
         </div>
