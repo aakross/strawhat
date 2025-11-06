@@ -2,6 +2,7 @@ import { useState } from "react";
 import logo from "../../assets/logo.png";
 import { useTranslation } from "react-i18next";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 type HeaderProps = {
   onNavigate: (section: string) => void;
@@ -22,11 +23,13 @@ export default function Header({ onNavigate }: HeaderProps) {
       <div className="flex w-full items-center justify-between md:justify-center">
         {/* LOGO */}
         <div className="shrink-0">
-          <img
-            src={logo}
-            alt="straw hat hostels"
-            className="w-[130px] h-auto"
-          />
+          <Link to="/">
+            <img
+              src={logo}
+              alt="straw hat hostels"
+              className="w-[130px] h-auto"
+            />
+          </Link>
         </div>
 
         {/* MENÚ DESKTOP */}

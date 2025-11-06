@@ -133,7 +133,7 @@ export default function Alojamiento() {
               el: ".swiper-pagination-custom",
             }}
             autoplay={{
-              delay: 5000,
+              delay: 10000,
               disableOnInteraction: false,
             }}
             loop={true}

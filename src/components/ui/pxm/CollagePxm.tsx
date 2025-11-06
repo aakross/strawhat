@@ -47,7 +47,7 @@ export default function CollagePxm() {
               slidesPerView={1.1}
               centeredSlides={true}
               loop={true}
-              autoplay={{ delay: 2500, disableOnInteraction: false }}
+              autoplay={{ delay: 7500, disableOnInteraction: false }}
             >
               {[col1, col2, col3, col4, col5, col3].map((foto, i) => (
                 <SwiperSlide key={i}>
@@ -71,7 +71,7 @@ export default function CollagePxm() {
                 spaceBetween={0}
                 slidesPerView={1}
                 loop={true}
-                autoplay={{ delay: 3000, disableOnInteraction: false }}
+                autoplay={{ delay: 7000, disableOnInteraction: false }}
                 className="h-full"
               >
                 {carousel1.map((foto, index) => (
@@ -91,7 +91,7 @@ export default function CollagePxm() {
                 spaceBetween={0}
                 slidesPerView={1}
                 loop={true}
-                autoplay={{ delay: 3500, disableOnInteraction: false }}
+                autoplay={{ delay: 7500, disableOnInteraction: false }}
                 className="h-full"
               >
                 {carousel2.map((foto, index) => (
@@ -112,7 +112,7 @@ export default function CollagePxm() {
                 spaceBetween={0}
                 slidesPerView={1}
                 loop={true}
-                autoplay={{ delay: 3200, disableOnInteraction: false }}
+                autoplay={{ delay: 7200, disableOnInteraction: false }}
                 className="h-full"
               >
                 {carousel3.map((foto, index) => (
@@ -132,7 +132,7 @@ export default function CollagePxm() {
                 spaceBetween={0}
                 slidesPerView={1}
                 loop={true}
-                autoplay={{ delay: 3800, disableOnInteraction: false }}
+                autoplay={{ delay: 7800, disableOnInteraction: false }}
                 className="h-full"
               >
                 {carousel4.map((foto, index) => (
@@ -152,7 +152,7 @@ export default function CollagePxm() {
                 spaceBetween={0}
                 slidesPerView={1}
                 loop={true}
-                autoplay={{ delay: 3400, disableOnInteraction: false }}
+                autoplay={{ delay: 7400, disableOnInteraction: false }}
                 className="h-full"
               >
                 {carousel5.map((foto, index) => (
@@ -172,7 +172,7 @@ export default function CollagePxm() {
                 spaceBetween={0}
                 slidesPerView={1}
                 loop={true}
-                autoplay={{ delay: 3600, disableOnInteraction: false }}
+                autoplay={{ delay: 7600, disableOnInteraction: false }}
                 className="h-full"
               >
                 {carousel6.map((foto, index) => (
