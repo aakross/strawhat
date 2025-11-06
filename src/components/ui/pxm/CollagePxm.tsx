@@ -63,9 +63,9 @@ export default function CollagePxm() {
           {/* 🖥️ COLLAGE SOLO PARA DESKTOP */}
           <div
             className="hidden md:block mx-auto w-[1080px] relative"
-            style={{ height: "1500px" }}
+            style={{ height: "830px" }}
           >
-            <div className="absolute top-0 left-0 w-[405px] h-[402px]">
+            <div className="absolute top-0 left-0 w-[405px] h-[222px]">
               <Swiper
                 modules={[Autoplay]}
                 spaceBetween={0}
@@ -85,7 +85,7 @@ export default function CollagePxm() {
                 ))}
               </Swiper>
             </div>
-            <div className="absolute top-0 right-0 w-[665px] h-[500px] z-20">
+            <div className="absolute top-0 right-0 w-[665px] h-[270px] z-20">
               <Swiper
                 modules={[Autoplay]}
                 spaceBetween={0}
@@ -106,7 +106,7 @@ export default function CollagePxm() {
               </Swiper>
             </div>
             {/* === FILA 2 === */}
-            <div className="absolute top-[413px] left-0 w-[550px] h-[300px]">
+            <div className="absolute top-[230px] left-0 w-[550px] h-[170px]">
               <Swiper
                 modules={[Autoplay]}
                 spaceBetween={0}
@@ -126,7 +126,7 @@ export default function CollagePxm() {
                 ))}
               </Swiper>
             </div>
-            <div className="absolute top-[510px] right-0 w-[518px] h-[512px]">
+            <div className="absolute top-[280px] right-0 w-[518px] h-[281px]">
               <Swiper
                 modules={[Autoplay]}
                 spaceBetween={0}
@@ -146,7 +146,7 @@ export default function CollagePxm() {
                 ))}
               </Swiper>
             </div>
-            <div className="absolute top-[725px] left-0 w-[550px] h-[297px]">
+            <div className="absolute top-[410px] left-0 w-[550px] h-[150px]">
               <Swiper
                 modules={[Autoplay]}
                 spaceBetween={0}
@@ -166,7 +166,7 @@ export default function CollagePxm() {
                 ))}
               </Swiper>
             </div>
-            <div className="absolute top-[1030px] right-0 w-full h-[263px]">
+            <div className="absolute top-[570px] right-0 w-full h-[263px]">
               <Swiper
                 modules={[Autoplay]}
                 spaceBetween={0}

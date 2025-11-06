@@ -40,7 +40,7 @@ export default function Prueba() {
       </div>
 
       <div className="relative z-10 pt-8 pb-16">
-        <img src={vibra} alt="Vibra" className="w-1/4 mx-auto mb-12" />
+        <img src={vibra} alt="Vibra" className="w-1/4 mx-auto mb-2" />
 
         {/* 📱 CARRUSEL SOLO PARA MÓVIL */}
         <div className="md:hidden w-full px-4">
@@ -67,10 +67,10 @@ export default function Prueba() {
         {/* 🖥️ COLLAGE SOLO PARA DESKTOP */}
         <div
           className="hidden md:block mx-auto w-[1080px] relative"
-          style={{ height: "1500px" }}
+          style={{ height: "800px" }}
         >
           {/* === FILA 1 === */}
-          <div className="absolute top-0 left-0 w-[658px] h-[393px]">
+          <div className="absolute top-0 left-0 w-[658px] h-[170px]">
             <Swiper
               modules={[Autoplay]}
               spaceBetween={0}
@@ -91,7 +91,7 @@ export default function Prueba() {
             </Swiper>
           </div>
 
-          <div className="absolute top-0 right-0 w-[412px] h-[624px]">
+          <div className="absolute top-0 right-0 w-[412px] h-[260px]">
             <Swiper
               modules={[Autoplay]}
               spaceBetween={0}
@@ -113,7 +113,7 @@ export default function Prueba() {
           </div>
 
           {/* === FILA 2 === */}
-          <div className="absolute top-[413px] left-0 w-[658px] h-[487px]">
+          <div className="absolute top-[180px] left-0 w-[658px] h-[230px]">
             <Swiper
               modules={[Autoplay]}
               spaceBetween={0}
@@ -134,7 +134,7 @@ export default function Prueba() {
             </Swiper>
           </div>
 
-          <div className="absolute top-[633px] right-0 w-[660px] h-[512px]">
+          <div className="absolute top-[270px] right-0 w-[520px] h-[230px]">
             <Swiper
               modules={[Autoplay]}
               spaceBetween={0}
@@ -156,7 +156,7 @@ export default function Prueba() {
           </div>
 
           {/* === FILA 3 === */}
-          <div className="absolute top-[910px] left-0 w-[413px] h-[508px]">
+          <div className="absolute top-[418px] left-0 w-[553px] h-[355px]">
             <Swiper
               modules={[Autoplay]}
               spaceBetween={0}
@@ -177,7 +177,7 @@ export default function Prueba() {
             </Swiper>
           </div>
 
-          <div className="absolute top-[1155px] right-0 w-[660px] h-[263px]">
+          <div className="absolute top-[510px] right-0 w-[520px] h-[263px]">
             <Swiper
               modules={[Autoplay]}
               spaceBetween={0}
