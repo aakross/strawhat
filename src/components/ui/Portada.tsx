@@ -2,6 +2,7 @@ import portada from "../../assets/portada.jpg";
 import tulum from "../../assets/svg/tulum.svg";
 import pxm from "../../assets/svg/pxm.svg";
 import cdmx from "../../assets/svg/cdmx.svg";
+import texto from "../../assets/texto.svg";
 import { Link } from "react-router-dom";
 
 export default function Portada() {
@@ -13,6 +14,15 @@ export default function Portada() {
       {/* Overlay opcional */}
       <div className="absolute inset-0 bg-black/20" />
 
+      {/* SVG de texto centrado */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <img 
+          src={texto} 
+          alt="Texto" 
+          className="w-64 sm:w-80 md:w-96 lg:w-[800px]"
+        />
+      </div>
+
       {/* Contenedor de botones sobre la imagen */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col md:flex-row items-center gap-6 md:gap-12">
         <button className="hover:scale-110 transition-transform duration-300">
@@ -20,10 +30,6 @@ export default function Portada() {
         </button>
 
         <button className="hover:scale-110 transition-transform duration-300">
-          {/* <a
-            href="https://hotels.cloudbeds.com/es/reservation/5auK74?currency=mxn"
-            target="_blank"
-          > */}
           <Link to="/pxm">
             <img
               src={pxm}
@@ -31,8 +37,6 @@ export default function Portada() {
               className="w-32 sm:w-40 md:w-[500px]"
             />
           </Link>
-
-          {/* </a> */}
         </button>
 
         <button className="hover:scale-110 transition-transform duration-300">
