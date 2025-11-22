@@ -20,7 +20,7 @@ export default function PortadaPxm() {
           </div>
 
           {/* Título grande */}
-          <span className="font-lostar text-[#D6FF57] text-[40pt] sm:text-[50pt] md:text-[65pt] text-center leading-[1]">
+          <span className="font-heaters text-[#D6FF57] text-[40pt] sm:text-[50pt] md:text-[85pt] text-center leading-[1]">
             {t("pxm.title")}
           </span>
 
