@@ -17,16 +17,21 @@ import foto10 from "../../assets/vibra/10.png";
 import foto11 from "../../assets/vibra/11.png";
 import foto12 from "../../assets/vibra/12.png";
 import foto13 from "../../assets/vibra/13.png";
-
+import foto14 from "../../assets/vibra/14.jpg";
+import foto15 from "../../assets/vibra/15.jpg";
+import foto16 from "../../assets/vibra/16.jpg";
+import foto17 from "../../assets/vibra/17.jpg";
+import foto18 from "../../assets/vibra/18.jpg";
+import foto19 from "../../assets/vibra/19.jpg";
 
 export default function Prueba() {
   // Arrays de fotos para cada carrusel (excluyendo foto2)
-  const carousel1 = [foto1, foto7, foto8, foto9, foto10];
-  const carousel2 = [foto2, foto11, foto12, foto13];
-  const carousel3 = [foto3, foto4, foto5, foto6];
-  const carousel4 = [foto4, foto1, foto2, foto3];
-  const carousel5 = [foto5, foto6, foto7, foto8];
-  const carousel6 = [foto6, foto11, foto12, foto13];
+  const carousel1 = [foto1, foto7, foto8, foto9];
+  const carousel2 = [foto2, foto10, foto11, foto12];
+  const carousel3 = [foto3, foto13, foto14, foto15];
+  const carousel4 = [foto4, foto16, foto17, foto18];
+  const carousel5 = [foto5, foto6, foto19];
+  const carousel6 = [foto6, foto4, foto3];
 
   return (
     <section className="relative w-full">
