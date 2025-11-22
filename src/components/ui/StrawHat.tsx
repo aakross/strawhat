@@ -21,7 +21,7 @@ export default function StrawHat() {
       <div className="relative z-10 flex flex-col items-center px-6 py-16 space-y-16 max-w-7xl mx-auto">
         {/* Textos principales */}
         <div className="flex flex-col justify-center items-center text-center space-y-4">
-          <h1 className="text-[#D6FF57] text-3xl md:text-5xl font-lostar">
+          <h1 className="text-[#D6FF57] text-3xl md:text-8xl font-heaters">
             {t("strawHat.title")}
           </h1>
 

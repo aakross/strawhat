@@ -67,8 +67,17 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Heaters";
+  src: url("./fonts/Heaters.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --font-agrandir: "Agrandir", sans-serif;
   --font-lostar: "Lostar", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
+  --font-heaters:"Heaters", "sans-serif"
 }

@@ -9,6 +9,7 @@ import PortadaPxm from "../components/ui/pxm/PortadaPxm";
 import SemanaEspecial from "../components/ui/pxm/SemanaEspecial";
 import Ubicacion from "../components/ui/pxm/Ubicacion";
 import Volutariado from "../components/ui/Volutariado";
+import WhatsApp from "../components/common/WhatsApp";
 
 export default function Pxm() {
   const alojamientoRef = useRef<HTMLDivElement | null>(null);
@@ -68,6 +69,9 @@ export default function Pxm() {
       </div>
       <div ref={contactoRef}>
         <Footer />
+      </div>
+      <div>
+        <WhatsApp />
       </div>
     </>
   );

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 218.73 202.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="77.24" cy="193" fx="77.24" fy="193" r="184.51" gradientUnits="userSpaceOnUse">
+      <stop offset=".22" stop-color="#e7e7e7"/>
+      <stop offset=".88" stop-color="#fcfcfc"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="68.14" cy="191.82" fx="68.14" fy="191.82" r="173.91" gradientUnits="userSpaceOnUse">
+      <stop offset=".18" stop-color="#36b649"/>
+      <stop offset=".76" stop-color="#57c965"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="79.19" cy="154.34" fx="79.19" fy="154.34" r="82.54" gradientUnits="userSpaceOnUse">
+      <stop offset=".22" stop-color="#e7e7e7"/>
+      <stop offset=".88" stop-color="#fff"/>
+    </radialGradient>
+  </defs>
+  <path class="cls-3" d="M111.07,15.78c-47.16,0-85.38,38.23-85.38,85.38,0,15.93,4.38,30.83,11.97,43.6l-10.77,43.41,42.79-12.32c12.26,6.81,26.37,10.7,41.39,10.7,47.16,0,85.39-38.23,85.39-85.38S158.23,15.78,111.07,15.78Z"/>
+  <path class="cls-2" d="M112.04,30.6c-39.15,0-70.88,31.74-70.88,70.89,0,14.98,4.66,28.86,12.59,40.31l-6.23,25.11,24.37-7.02c11.42,7.87,25.25,12.48,40.16,12.48,39.15,0,70.89-31.74,70.89-70.88S151.19,30.6,112.04,30.6Z"/>
+  <path class="cls-1" d="M89.48,94.4c.99-1.14,1.98-2.27,2.97-3.41,1.66-1.93,4.15-3.8,4.28-6.58.12-2.66-.83-5.31-1.77-7.74-.61-1.56-1.23-3.11-1.82-4.67-1.08-2.83-2.48-6.82-4.04-8.48-2.12-2.25-5.76-2.73-8.63-1.35,0,0-16.76,8.06-11.6,24.16,0,0,9.99,45.43,60.25,54.77,0,0,18.04,2.58,22.88-8.38,1.04-2.37,1.75-5.69,1.57-8.26-.17-2.5-1.93-4.15-3.98-5.33-2.65-1.52-5-2.95-8.02-4.43-2.62-1.29-5.63-3.19-8.65-2.36-2.21.61-3.79,2.63-5.29,4.23-1.95,2.08-3.95,4.11-5.92,6.17,0,0-25.45-9.34-32.22-28.35Z"/>
+</svg>

@@ -5,6 +5,7 @@ import Portada from "../components/ui/Portada";
 import Header from "../components/ui/Header";
 import Vibra from "../components/ui/Vibra";
 import { useRef } from "react";
+import WhatsApp from "../components/common/WhatsApp";
 
 const scrollToSection = (ref: React.RefObject<HTMLDivElement | null>) => {
   ref.current?.scrollIntoView({ behavior: "smooth" });
@@ -48,6 +49,9 @@ export default function Home() {
       </div>
       <div ref={contactoRef}>
         <Footer />
+      </div>
+      <div>
+        <WhatsApp />
       </div>
     </>
   );
