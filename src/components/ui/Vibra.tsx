@@ -23,6 +23,7 @@ import foto16 from "../../assets/vibra/16.jpg";
 import foto17 from "../../assets/vibra/17.jpg";
 import foto18 from "../../assets/vibra/18.jpg";
 import foto19 from "../../assets/vibra/19.jpg";
+import { useState } from "react";
 
 export default function Prueba() {
   // Arrays de fotos para cada carrusel (excluyendo foto2)
@@ -32,6 +33,58 @@ export default function Prueba() {
   const carousel4 = [foto4, foto16, foto17, foto18];
   const carousel5 = [foto5, foto6, foto19];
   const carousel6 = [foto6, foto4, foto3];
+
+  const [modalAbierto, setModalAbierto] = useState(false);
+  const [imagenActual, setImagenActual] = useState<string | null>(null);
+  const [carruselActual, setCarruselActual] = useState<string | null>(null);
+
+  // Función para abrir el modal
+  const abrirModal = (imagen: string, carrusel: string) => {
+    setImagenActual(imagen);
+    setCarruselActual(carrusel);
+    setModalAbierto(true);
+  };
+
+  // Función para cerrar el modal
+  const cerrarModal = () => {
+    setModalAbierto(false);
+    setImagenActual(null);
+    setCarruselActual(null);
+  };
+
+  // Función para navegar entre imágenes del mismo carrusel
+  const cambiarImagen = (direccion: "anterior" | "siguiente") => {
+    if (!carruselActual || !imagenActual) return;
+
+    const carruseles: { [key: string]: string[] } = {
+      movil: [foto1, foto2, foto3, foto4, foto5, foto6],
+      carousel1,
+      carousel2,
+      carousel3,
+      carousel4,
+      carousel5,
+      carousel6,
+    };
+
+    const carrusel = carruseles[carruselActual];
+    const indiceActual = carrusel.indexOf(imagenActual);
+
+    if (direccion === "siguiente") {
+      const nuevoIndice = (indiceActual + 1) % carrusel.length;
+      setImagenActual(carrusel[nuevoIndice]);
+    } else {
+      const nuevoIndice =
+        (indiceActual - 1 + carrusel.length) % carrusel.length;
+      setImagenActual(carrusel[nuevoIndice]);
+    }
+  };
+
+  // Cerrar modal al hacer click fuera de la imagen
+  const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (e.target === e.currentTarget) {
+      cerrarModal();
+    }
+  };
 
   return (
     <section className="relative w-full">
@@ -59,11 +112,16 @@ export default function Prueba() {
           >
             {[foto1, foto2, foto3, foto4, foto5, foto6].map((foto, i) => (
               <SwiperSlide key={i}>
-                <img
-                  src={foto}
-                  alt={`Foto ${i + 1}`}
-                  className="rounded-lg shadow-lg object-cover w-full h-[300px]"
-                />
+                <div
+                  className="cursor-pointer"
+                  onClick={() => abrirModal(foto, "movil")}
+                >
+                  <img
+                    src={foto}
+                    alt={`Foto ${i + 1}`}
+                    className="rounded-lg shadow-lg object-cover w-full h-[300px] hover:opacity-90 transition-opacity"
+                  />
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
@@ -86,11 +144,16 @@ export default function Prueba() {
             >
               {carousel1.map((foto, index) => (
                 <SwiperSlide key={index}>
-                  <img
-                    src={foto}
-                    alt={`Carrusel 1 - ${index + 1}`}
-                    className="w-full h-full object-cover"
-                  />
+                  <div
+                    className="cursor-pointer h-full"
+                    onClick={() => abrirModal(foto, "carrusel1")}
+                  >
+                    <img
+                      src={foto}
+                      alt={`Carrusel 1 - ${index + 1}`}
+                      className="w-full h-full object-cover hover:opacity-90 transition-opacity"
+                    />
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -107,11 +170,16 @@ export default function Prueba() {
             >
               {carousel2.map((foto, index) => (
                 <SwiperSlide key={index}>
-                  <img
-                    src={foto}
-                    alt={`Carrusel 2 - ${index + 1}`}
-                    className="w-full h-full object-cover"
-                  />
+                  <div
+                    className="cursor-pointer h-full"
+                    onClick={() => abrirModal(foto, "carrusel2")}
+                  >
+                    <img
+                      src={foto}
+                      alt={`Carrusel 2 - ${index + 1}`}
+                      className="w-full h-full object-cover hover:opacity-90 transition-opacity"
+                    />
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -129,11 +197,16 @@ export default function Prueba() {
             >
               {carousel3.map((foto, index) => (
                 <SwiperSlide key={index}>
-                  <img
-                    src={foto}
-                    alt={`Carrusel 3 - ${index + 1}`}
-                    className="w-full h-full object-cover"
-                  />
+                  <div
+                    className="cursor-pointer h-full"
+                    onClick={() => abrirModal(foto, "carrusel3")}
+                  >
+                    <img
+                      src={foto}
+                      alt={`Carrusel 3 - ${index + 1}`}
+                      className="w-full h-full object-cover hover:opacity-90 transition-opacity"
+                    />
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -150,11 +223,16 @@ export default function Prueba() {
             >
               {carousel4.map((foto, index) => (
                 <SwiperSlide key={index}>
-                  <img
-                    src={foto}
-                    alt={`Carrusel 4 - ${index + 1}`}
-                    className="w-full h-full object-cover"
-                  />
+                  <div
+                    className="cursor-pointer h-full"
+                    onClick={() => abrirModal(foto, "carrusel4")}
+                  >
+                    <img
+                      src={foto}
+                      alt={`Carrusel 4 - ${index + 1}`}
+                      className="w-full h-full object-cover hover:opacity-90 transition-opacity"
+                    />
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -172,11 +250,16 @@ export default function Prueba() {
             >
               {carousel5.map((foto, index) => (
                 <SwiperSlide key={index}>
-                  <img
-                    src={foto}
-                    alt={`Carrusel 5 - ${index + 1}`}
-                    className="w-full h-full object-cover"
-                  />
+                  <div
+                    className="cursor-pointer h-full"
+                    onClick={() => abrirModal(foto, "carrusel5")}
+                  >
+                    <img
+                      src={foto}
+                      alt={`Carrusel 5 - ${index + 1}`}
+                      className="w-full h-full object-cover hover:opacity-90 transition-opacity"
+                    />
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -193,17 +276,62 @@ export default function Prueba() {
             >
               {carousel6.map((foto, index) => (
                 <SwiperSlide key={index}>
-                  <img
-                    src={foto}
-                    alt={`Carrusel 6 - ${index + 1}`}
-                    className="w-full h-full object-cover"
-                  />
+                  <div
+                    className="cursor-pointer h-full"
+                    onClick={() => abrirModal(foto, "carrusel6")}
+                  >
+                    <img
+                      src={foto}
+                      alt={`Carrusel 6 - ${index + 1}`}
+                      className="w-full h-full object-cover hover:opacity-90 transition-opacity"
+                    />
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>
           </div>
         </div>
       </div>
+
+      {/* MODAL PARA IMAGEN AMPLIADA */}
+      {modalAbierto && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 p-4"
+          onClick={handleBackdropClick}
+        >
+          {/* Botón cerrar */}
+          <button
+            onClick={cerrarModal}
+            className="absolute top-4 right-4 text-white text-3xl z-60 bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition-all cursor-pointer"
+          >
+            ×
+          </button>
+
+          {/* Botones de navegación */}
+          <button
+            onClick={() => cambiarImagen("anterior")}
+            className=" md:hidden absolute left-4 text-white text-2xl z-60 bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition-all"
+          >
+            ‹
+          </button>
+
+          <button
+            onClick={() => cambiarImagen("siguiente")}
+            className="md:hidden absolute right-4 text-white text-2xl z-60 bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition-all"
+          >
+            ›
+          </button>
+
+          {/* Imagen ampliada */}
+          <div className="relative max-w-xl max-h-full">
+            <img
+              src={imagenActual || ""}
+              alt="Imagen ampliada"
+              className="max-w-full max-h-full object-contain rounded-lg"
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 }
