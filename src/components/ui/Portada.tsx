@@ -16,9 +16,9 @@ export default function Portada() {
 
       {/* SVG de texto centrado - Subido en móvil */}
       <div className="absolute top-[45%] md:top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full px-4">
-        <img 
-          src={texto} 
-          alt="Texto" 
+        <img
+          src={texto}
+          alt="Texto"
           className="w-full max-w-[280px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] xl:max-w-[800px] mx-auto"
         />
       </div>
@@ -26,7 +26,13 @@ export default function Portada() {
       {/* Contenedor de botones sobre la imagen */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col md:flex-row items-center gap-6 md:gap-12">
         <button className="hover:scale-110 transition-transform duration-300">
-          <img src={tulum} alt="Tulum" className="w-32 sm:w-40 md:w-[500px]" />
+          <Link to="/tulum">
+            <img
+              src={tulum}
+              alt="Tulum"
+              className="w-32 sm:w-40 md:w-[500px]"
+            />
+          </Link>
         </button>
 
         <button className="hover:scale-110 transition-transform duration-300">
@@ -40,7 +46,9 @@ export default function Portada() {
         </button>
 
         <button className="hover:scale-110 transition-transform duration-300">
-          <img src={cdmx} alt="CDMX" className="w-32 sm:w-40 md:w-[500px]" />
+          <Link to="/cdmx">
+            <img src={cdmx} alt="CDMX" className="w-32 sm:w-40 md:w-[500px]" />
+          </Link>
         </button>
       </div>
     </section>
