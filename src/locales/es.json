@@ -132,5 +132,93 @@
     "airportOption2": "Taxi colectivo (aprox. $100)",
     "fromAdo": "Desde el ADO:",
     "adoOption1": "Colectivo hasta el mercado de Zicatela (aprox. $12)"
+  },
+  "tulum": {
+    "header": {
+      "description": "tu nuevo espacio tropical para descansar y conectar, a solo 5 minutos del Rooftop Bar con nuestra legendaria fiesta."
+    },
+    "rooms": {
+      "title": "HABITACIONES",
+      "count": "13 PRIVADAS Y 1 DORMITORIO COMPARTIDO",
+      "generalDescription": "Perfectas para esas vacaciones en pareja o grupo, o para los que se atreven a explorar el Caribe como solo travellers.",
+      "room1": "Habitaciones 1, 2, 4 y 5",
+      "room2": "Habitación 6",
+      "room3": "Habitación 9",
+      "room4": "Habitaciones 10 y 11",
+      "room5": "Habitaciones 7 y 12",
+      "room6": "Habitación 21",
+      "room7": "Habitación 14",
+      "room8": "Habitaciones 8 y 13"
+    },
+    "accommodation": {
+      "title": "OPCIONES DE ALOJAMIENTO",
+      "subtitle": "PERFECTAS PARA ESAS VACACIONES EN PAREJA O GRUPO"
+    },
+    "facilities": {
+      "title": "INSTALACIONES Y SERVICIOS",
+      "items": {
+        "airConditioning": "Aire acondicionado",
+        "fan": "Ventilador",
+        "wifi": "Wifi gratuito",
+        "gardenViews": "Vistas al jardín en todos los cuartos",
+        "restaurant": "Restaurante en planta baja",
+        "lockers": "Lockers",
+        "garden": "Jardín",
+        "towels": "Toallas",
+        "hotWater": "Agua caliente",
+        "transportBooking": "Reserva de transporte (motos, carros, coche) y tours",
+        "clubReservations": "Reserva en clubs nocturnos",
+        "smokingArea": "Zona de fumadores"
+      }
+    },
+    "amenities": {
+      "title": "INSTALACIONES",
+      "description": "Durante el día, puedes relajarte en nuestro hostal y nuestro restaurante, mientras que la fiesta sigue todas las noches en nuestra casa original, nuestro Rooftop se encuentra a solo 5 min caminando del nuevo hostal. El bar más famoso de Tulum y punto de encuentro de viajeros de todo el mundo, donde cada noche será única y especial."
+    },
+    "location": {
+      "title": "UBICACIÓN",
+      "hotelAddress": "HOTEL + RESTAURANTE: AV TULUM, 19-4",
+      "barAddress": "BAR: Av Tulum, 89",
+      "info": "Más información",
+      "fromTulumAirport": {
+        "title": "Desde el Aeropuerto Internacional de Tulum (TQO):",
+        "description": "Se encuentra a aproximadamente 40 km de Tulum. La manera más económica de llegar es tomando un autobús directo desde el aeropuerto hasta Tulum Centro con la compañía ADO. El boleto puede ser comprado directamente en el Aeropuerto, justo a la salida de la Terminal, o a través de su página web / APP. Este billete tiene un precio aproximado de $300mxn."
+      },
+      "transportTips": {
+        "title": "TRANSPORTE: CONSEJOS DE TRANSPORTE:",
+        "tulumAirport": {
+          "title": "Desde el Aeropuerto Internacional de Tulum (TQO):",
+          "description": "Se encuentra a aproximadamente 40 km de Tulum. La manera más económica de llegar es tomando un autobús directo desde el aeropuerto hasta Tulum Centro con la compañía ADO. El boleto puede ser comprado directamente en el Aeropuerto, justo a la salida de la Terminal, o a través de su página web / APP. Este billete tiene un precio aproximado de $300mxn."
+        },
+        "cancunAirport": {
+          "title": "Desde el Aeropuerto Internacional de Cancún (CUN):",
+          "description": "Se encuentra a aproximadamente 120 km de Tulum. La manera más económica de llegar es tomando un autobús directo desde el aeropuerto hasta Tulum con la compañía ADO. El boleto puede ser comprado directamente en el Aeropuerto, justo a la salida de la Terminal, o a través de su página web / APP. Este billete tiene un precio aproximado de $450mxn.",
+          "note": "Ten en cuenta que los horarios varían y son limitados por lo que, si tu vuelo llega de noche, quizá no tengas un autobús directo a Tulum y debas ir en transporte privado o hacer lo siguiente si quieres ir en transporte público: Tomar un autobús ADO o colectivo a Playa del Carmen y de ahí un colectivo o Autobús ADO hasta Tulum."
+        },
+        "transportOptions": {
+          "title": "Opciones de transporte:",
+          "ado": "1. Autobús ADO: Cuentan con terminales en todas las ciudades del estado de Quintana Roo. Tienen amplios horarios en los que autobuses que llegan a Tulum desde Playa del Carmen, Cancún, Bacalar, Chiquilá o Valladolid. Puedes comprar los boletos directamente en la terminal o a través de su página web o APP. Esta compañía cuenta, para muchas de sus rutas, con una filial 'low cost' llamada Mayab, cuyos autobuses comparten terminal con ADO, y los boletos se pueden adquirir en la misma taquilla.",
+          "collective": "2. Colectivos: Son unas vans que funcionan como un pequeño autobús y es la manera más económica de desplazarse entre ciudades y pueblos. Dependiendo de tu origen tendrás que tomar uno o dos colectivos para llegar a Tulum:"
+        },
+        "collectiveRoutes": {
+          "fromCancun": {
+            "title": "• Desde Cancún:",
+            "description": "Toma el colectivo desde la parada central de Cancún centro hasta Playa del Carmen ($50mxn). En la misma central de Playa del Carmen, toma el colectivo hasta Tulum ($60mxn). Ambos colectivos no tienen horario fijo, sino que van saliendo conforme se va llenando de pasajeros. El trayecto, en total, dura unas 2 horas."
+          },
+          "fromPlaya": {
+            "title": "• Desde Playa del Carmen:",
+            "description": "Toma el colectivo directo a Tulum en la parada central que se encuentra junto al supermercado Chedraui ($60mxn). No hay horarios fijos, van saliendo conforme se va llenando de pasajeros. El trayecto dura aproximadamente 1 hora."
+          },
+          "fromBacalar": {
+            "title": "• Desde Bacalar:",
+            "description": "Hay horarios concretos y limitados y tiene un coste aproximado de $230mxn. Puedes consultar los en la central de colectivos o al teléfono del sindicato de taxistas que organiza la ruta (+52 983 151 1963). El trayecto dura entre 2 y 3 horas, dependiendo del tráfico."
+          },
+          "fromChiquila": {
+            "title": "• Desde Chiquilá/Holbox:",
+            "description": "También hay horarios concretos y limitados, teniendo un coste de aproximadamente $150-200mxn. El trayecto dura aproximadamente 2-3 horas."
+          }
+        }
+      }
+    }
   }
 }

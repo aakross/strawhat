@@ -132,5 +132,93 @@
     "airportOption2": "Shared taxi (approx. $100)",
     "fromAdo": "From ADO Bus Station:",
     "adoOption1": "Collective to Zicatela market (approx. $12)"
+  },
+  "tulum": {
+    "header": {
+      "description": "your new tropical space to rest and connect, just 5 minutes from the Rooftop Bar with our legendary party."
+    },
+    "rooms": {
+      "title": "ROOMS",
+      "count": "13 PRIVATE AND 1 SHARED DORMITORY",
+      "generalDescription": "Perfect for those couple or group vacations, or for those who dare to explore the Caribbean as solo travelers.",
+      "room1": "Rooms 1, 2, 4 and 5",
+      "room2": "Room 6",
+      "room3": "Room 9",
+      "room4": "Rooms 10 and 11",
+      "room5": "Rooms 7 and 12",
+      "room6": "Room 21",
+      "room7": "Room 14",
+      "room8": "Rooms 8 and 13"
+    },
+    "accommodation": {
+      "title": "ACCOMMODATION OPTIONS",
+      "subtitle": "PERFECT FOR THOSE COUPLE OR GROUP VACATIONS"
+    },
+    "facilities": {
+      "title": "FACILITIES AND SERVICES",
+      "items": {
+        "airConditioning": "Air conditioning",
+        "fan": "Fan",
+        "wifi": "Free WiFi",
+        "gardenViews": "Garden views in all rooms",
+        "restaurant": "Restaurant on the ground floor",
+        "lockers": "Lockers",
+        "garden": "Garden",
+        "towels": "Towels",
+        "hotWater": "Hot water",
+        "transportBooking": "Transport booking (motorcycles, cars) and tours",
+        "clubReservations": "Nightclub reservations",
+        "smokingArea": "Smoking area"
+      }
+    },
+    "amenities": {
+      "title": "FACILITIES",
+      "description": "During the day, you can relax at our hostel and restaurant, while the party continues every night at our original home. Our Rooftop is just a 5-minute walk from the new hostel. The most famous bar in Tulum and a meeting point for travelers from all over the world, where every night will be unique and special."
+    },
+    "location": {
+      "title": "LOCATION",
+      "hotelAddress": "HOTEL + RESTAURANT: AV TULUM, 19-4",
+      "barAddress": "BAR: Av Tulum, 89",
+      "info": "More information",
+      "fromTulumAirport": {
+        "title": "From Tulum International Airport (TQO):",
+        "description": "It is approximately 40 km from Tulum. The most economical way to get there is by taking a direct bus from the airport to Tulum Centro with the ADO company. The ticket can be purchased directly at the Airport, right at the exit of the Terminal, or through their website/APP. This ticket has an approximate price of $300mxn."
+      },
+      "transportTips": {
+        "title": "TRANSPORTATION: TRANSPORTATION TIPS:",
+        "tulumAirport": {
+          "title": "From Tulum International Airport (TQO):",
+          "description": "It is approximately 40 km from Tulum. The most economical way to get there is by taking a direct bus from the airport to Tulum Centro with the ADO company. The ticket can be purchased directly at the Airport, right at the exit of the Terminal, or through their website/APP. This ticket has an approximate price of $300mxn."
+        },
+        "cancunAirport": {
+          "title": "From Cancún International Airport (CUN):",
+          "description": "It is approximately 120 km from Tulum. The most economical way to get there is by taking a direct bus from the airport to Tulum with the ADO company. The ticket can be purchased directly at the Airport, right at the exit of the Terminal, or through their website/APP. This ticket has an approximate price of $450mxn.",
+          "note": "Please note that schedules vary and are limited, so if your flight arrives at night, you may not have a direct bus to Tulum and may need to take private transportation or do the following if you want to use public transportation: Take an ADO bus or colectivo to Playa del Carmen and from there a colectivo or ADO bus to Tulum."
+        },
+        "transportOptions": {
+          "title": "Transportation options:",
+          "ado": "1. ADO Bus: They have terminals in all cities in the state of Quintana Roo. They have extensive schedules with buses arriving in Tulum from Playa del Carmen, Cancún, Bacalar, Chiquilá or Valladolid. You can purchase tickets directly at the terminal or through their website or APP. This company has a 'low cost' subsidiary called Mayab for many of its routes, whose buses share terminals with ADO, and tickets can be purchased at the same ticket counter.",
+          "collective": "2. Colectivos: These are vans that function as a small bus and are the most economical way to travel between cities and towns. Depending on your origin, you will need to take one or two colectivos to reach Tulum:"
+        },
+        "collectiveRoutes": {
+          "fromCancun": {
+            "title": "• From Cancún:",
+            "description": "Take the colectivo from the central stop in Cancún center to Playa del Carmen ($50mxn). At the same Playa del Carmen central station, take the colectivo to Tulum ($60mxn). Both colectivos do not have a fixed schedule; they depart as they fill up with passengers. The total journey takes about 2 hours."
+          },
+          "fromPlaya": {
+            "title": "• From Playa del Carmen:",
+            "description": "Take the direct colectivo to Tulum at the central stop located next to the Chedraui supermarket ($60mxn). There are no fixed schedules; they depart as they fill up with passengers. The journey takes approximately 1 hour."
+          },
+          "fromBacalar": {
+            "title": "• From Bacalar:",
+            "description": "There are specific and limited schedules with an approximate cost of $230mxn. You can check them at the colectivo station or by calling the taxi union that organizes the route (+52 983 151 1963). The journey takes between 2 and 3 hours, depending on traffic."
+          },
+          "fromChiquila": {
+            "title": "• From Chiquilá/Holbox:",
+            "description": "There are also specific and limited schedules, with a cost of approximately $150-200mxn. The journey takes approximately 2-3 hours."
+          }
+        }
+      }
+    }
   }
 }
