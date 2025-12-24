@@ -12,7 +12,7 @@ export interface ServicesData {
 }
 
 // Importa tus iconos aquí o pásalos como parámetro
-import barResta from "../assets/pxm/svg/bar_restaurante.svg";
+
 import alberca from "../assets/pxm/svg/alberca.svg";
 import wifi from "../assets/pxm/svg/wifi.svg";
 import coworking from "../assets/pxm/svg/coworking.svg";

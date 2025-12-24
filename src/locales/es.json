@@ -45,7 +45,10 @@
     "activities": "ACTIVIDADES",
     "experiences": "EXPERIENCIAS",
     "volunteer": "VOLUNTARIADO",
-    "contact": "CONTACTO"
+    "contact": "CONTACTO",
+    "services": "SERVICIOS",
+    "facilities": "INSTALACIONES"
+    
   },
   "pxm": {
     "welcome": "BIENVENIDO A",

@@ -47,7 +47,7 @@ export default function HeaderTulum({ onNavigate }: HeaderTulumProps) {
               onClick={() => onNavigate("activities")}
               className="relative group font-agrandir font-black transition-all duration-300 hover:text-yellow-400"
             >
-              {t("header.activities")}
+              {t("header.services")}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
             </h1>
 
@@ -55,7 +55,7 @@ export default function HeaderTulum({ onNavigate }: HeaderTulumProps) {
               onClick={() => onNavigate("experiences")}
               className="relative group font-agrandir font-black transition-all duration-300 hover:text-yellow-400"
             >
-              {t("header.experiences")}
+              {t("header.facilities")}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
             </h1>
 
@@ -63,7 +63,7 @@ export default function HeaderTulum({ onNavigate }: HeaderTulumProps) {
               onClick={() => onNavigate("volunteer")}
               className="relative group font-agrandir font-black transition-all duration-300 hover:text-yellow-400"
             >
-              {t("header.volunteer")}
+              {t("header.activities")}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
             </h1>
 
@@ -71,7 +71,7 @@ export default function HeaderTulum({ onNavigate }: HeaderTulumProps) {
               onClick={() => onNavigate("contact")}
               className="relative group font-agrandir font-black transition-all duration-300 hover:text-yellow-400"
             >
-              {t("header.contact")}
+              {t("header.experiences")}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
             </h1>
 
