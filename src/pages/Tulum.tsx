@@ -6,6 +6,7 @@ import InstalacionesTulum from "../components/ui/tulum/InstalacionesTulum";
 import PortadaTulum from "../components/ui/tulum/PortadaTulum";
 import SemanaEspecialTulum from "../components/ui/tulum/SemanaEspecialTulum";
 import UbicacionTulum from "../components/ui/tulum/UbicacionTulum";
+import CollageTulum from "../components/ui/tulum/CollageTulum";
 
 export default function Tulum() {
   const alojamientoRef = useRef<HTMLDivElement | null>(null);
@@ -47,6 +48,9 @@ export default function Tulum() {
       </div>
       <div ref={actividadesRef}>
         <InstalacionesTulum />
+      </div>
+      <div>
+        <CollageTulum />
       </div>
       <div ref={voluntariadoRef}>
         <SemanaEspecialTulum />
