@@ -26,7 +26,7 @@ export default function AlojamientoTulum() {
       id: 1,
       image: alo1,
       title: t("tulum.rooms.room1"),
-      rate: t("tulum.accommodation.subtitle"),
+      rate: t("tulum.rooms.room1Description"),
       features: [
         // t("tulum.rooms.generalDescription"),
         // t("pxm.mixed8Feature2"),
@@ -43,7 +43,8 @@ export default function AlojamientoTulum() {
       id: 2,
       image: alo2, // Asegúrate de importar alo2
       title: t("tulum.rooms.room2"),
-      rate: t("tulum.accommodation.subtitle"),
+      rate: t("tulum.rooms.room2Description"),
+
       features: [
         //    t("tulum.rooms.generalDescription"),
         // t("pxm.female8Feature2"),
@@ -60,7 +61,7 @@ export default function AlojamientoTulum() {
       id: 3,
       image: alo3, // Asegúrate de importar alo2
       title: t("tulum.rooms.room3"),
-      rate: t("tulum.accommodation.subtitle"),
+      rate: t("tulum.rooms.room3Description"),
       features: [
         // t("tulum.rooms.generalDescription"),
         // t("pxm.mixed6Feature2"),
@@ -79,7 +80,7 @@ export default function AlojamientoTulum() {
       id: 4,
       image: alo4, // Asegúrate de importar alo2
       title: t("tulum.rooms.room4"),
-      rate: t("tulum.accommodation.subtitle"),
+      rate: t("tulum.rooms.room4Description"),
       features: [
         // t("tulum.rooms.generalDescription"),
         // t("pxm.queenFeature2"),
@@ -94,7 +95,7 @@ export default function AlojamientoTulum() {
       id: 5,
       image: alo5, // Asegúrate de importar alo2
       title: t("tulum.rooms.room5"),
-      rate: t("tulum.accommodation.subtitle"),
+      rate: t("tulum.rooms.room5Description"),
       features: [
         // t("tulum.rooms.generalDescription"),
         // t("pxm.queenFeature2"),
@@ -109,7 +110,7 @@ export default function AlojamientoTulum() {
       id: 6,
       image: alo6, // Asegúrate de importar alo2
       title: t("tulum.rooms.room6"),
-      rate: t("tulum.accommodation.subtitle"),
+      rate: t("tulum.rooms.room6Description"),
       features: [
         // t("tulum.rooms.generalDescription"),
         // t("pxm.queenFeature2"),
@@ -124,7 +125,7 @@ export default function AlojamientoTulum() {
       id: 7,
       image: alo7, // Asegúrate de importar alo2
       title: t("tulum.rooms.room7"),
-      rate: t("tulum.accommodation.subtitle"),
+      rate: t("tulum.rooms.room7Description"),
       features: [
         // t("tulum.rooms.generalDescription"),
         // t("pxm.queenFeature2"),
@@ -139,7 +140,7 @@ export default function AlojamientoTulum() {
       id: 8,
       image: alo8, // Asegúrate de importar alo2
       title: t("tulum.rooms.room8"),
-      rate: t("tulum.accommodation.subtitle"),
+      rate: t("tulum.rooms.room8Description"),
       features: [
         // t("tulum.rooms.generalDescription"),
         // t("pxm.queenFeature2"),

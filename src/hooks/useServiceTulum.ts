@@ -54,10 +54,10 @@ export const useServices = (): ServicesData => {
       icon: wifi,
       text: t("pxm.service3"),
     },
-    {
-      icon: coworking,
-      text: t("pxm.service4"),
-    },
+    // {
+    //   icon: coworking,
+    //   text: t("pxm.service4"),
+    // },
     {
       icon: cocinaHuespedes,
       text: t("pxm.service5"),
@@ -89,10 +89,10 @@ export const useServices = (): ServicesData => {
       icon: habitacionesPriv,
       text: t("pxm.service11"),
     },
-    {
-      icon: dormitorioscompartidos,
-      text: t("pxm.service12"),
-    },
+    // {
+    //   icon: dormitorioscompartidos,
+    //   text: t("pxm.service12"),
+    // },
     {
       icon: aireacondicionado,
       text: t("pxm.recommendation1"),

@@ -141,16 +141,24 @@
     },
     "rooms": {
       "title": "ROOMS",
-      "count": "13 PRIVATE AND 1 SHARED DORMITORY",
+      "count": "14 PRIVATE ROOMS",
       "generalDescription": "Perfect for those couple or group vacations, or for those who dare to explore the Caribbean as solo travelers.",
       "room1": "Rooms 1, 2, 4 and 5",
+      "room1Description": "Queen bed, private balcony",
       "room2": "Room 6",
+      "room2Description": "Triple room with private balcony",
       "room3": "Room 9",
+      "room3Description": "Queen bed, private balcony and outdoor shower",
       "room4": "Rooms 10 and 11",
+      "room4Description": "Triple room, private balcony and outdoor shower",
       "room5": "Rooms 7 and 12",
+      "room5Description": "Queen bed, no balcony",
       "room6": "Room 21",
+      "room6Description": "Quadruple room with two bunk beds, no balcony",
       "room7": "Room 14",
-      "room8": "Rooms 8 and 13"
+      "room7Description": "Double room with two single beds, no balcony",
+      "room8": "Rooms 8 and 13",
+      "room8Description": "Queen bed, private balcony"
     },
     "accommodation": {
       "title": "ACCOMMODATION OPTIONS",

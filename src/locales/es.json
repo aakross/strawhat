@@ -48,7 +48,6 @@
     "contact": "CONTACTO",
     "services": "SERVICIOS",
     "facilities": "INSTALACIONES"
-    
   },
   "pxm": {
     "welcome": "BIENVENIDO A",
@@ -142,16 +141,24 @@
     },
     "rooms": {
       "title": "HABITACIONES",
-      "count": "13 PRIVADAS Y 1 DORMITORIO COMPARTIDO",
+      "count": "14 HABITACIONES PRIVADAS",
       "generalDescription": "Perfectas para esas vacaciones en pareja o grupo, o para los que se atreven a explorar el Caribe como solo travellers.",
       "room1": "Habitaciones 1, 2, 4 y 5",
+      "room1Description": "Cama queen, balcón privado",
       "room2": "Habitación 6",
+      "room2Description": "Habitación triple con balcón privado",
       "room3": "Habitación 9",
+      "room3Description": "Cama queen, balcón privado y regadera al aire libre",
       "room4": "Habitaciones 10 y 11",
+      "room4Description": "Habitación triple, balcón privado y regadera al aire libre",
       "room5": "Habitaciones 7 y 12",
+      "room5Description": "Cama queen, sin balcón",
       "room6": "Habitación 21",
+      "room6Description": "Habitación cuádruple con dos literas, sin balcón",
       "room7": "Habitación 14",
-      "room8": "Habitaciones 8 y 13"
+      "room7Description": "Habitación doble con dos camas individuales, sin balcón",
+      "room8": "Habitaciones 8 y 13",
+      "room8Description": "Cama queen, balcón privado"
     },
     "accommodation": {
       "title": "OPCIONES DE ALOJAMIENTO",
