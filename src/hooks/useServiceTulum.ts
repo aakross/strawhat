@@ -15,7 +15,7 @@ export interface ServicesData {
 
 import alberca from "../assets/pxm/svg/alberca.svg";
 import wifi from "../assets/pxm/svg/wifi.svg";
-import coworking from "../assets/pxm/svg/coworking.svg";
+// import coworking from "../assets/pxm/svg/coworking.svg";
 import cocinaHuespedes from "../assets/pxm/svg/cocina_huéspedes.svg";
 import lockers from "../assets/pxm/svg/lockers.svg";
 import toursactividades from "../assets/pxm/svg/tours.svg";
@@ -23,7 +23,7 @@ import areaajardinada from "../assets/pxm/svg/area_ajardinada.svg";
 import zonafumadores from "../assets/pxm/svg/zona_fumadores.svg";
 import barra from "../assets/pxm/svg/barra.svg";
 import habitacionesPriv from "../assets/pxm/svg/habitaciones_privadas.svg";
-import dormitorioscompartidos from "../assets/pxm/svg/dormitorios_compartidos.svg";
+// import dormitorioscompartidos from "../assets/pxm/svg/dormitorios_compartidos.svg";
 import aireacondicionado from "../assets/pxm/svg/aire_acondicionado.svg";
 import enchufesenergia from "../assets/pxm/svg/enchufes_energía.svg";
 import juegosmesalibros from "../assets/pxm/svg/juegos_libros.svg";
