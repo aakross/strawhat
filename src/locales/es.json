@@ -14,6 +14,21 @@
     "since2": "DESDE 2019",
     "description": "Straw Hat nació del sueño compartido de cuatro viajeros de Brasil y México que encontraron en la costa de Oaxaca un lugar donde la vida debía sentirse libre, y llena de historias por contar. Lo que comenzó como un hostal de fiesta alocada se transformó con el tiempo en un concepto único: un espacio donde el surf, la música y la vibra nocturna se mezclan con la calma del descanso y la calidez de una comunidad abierta al mundo. Hoy, esa chispa inicial se ha expandido más allá de su origen, convirtiéndose en tres lugares inolvidables: Puerto Escondido, Tulum y Ciudad de México. En cada uno de ellos, el plan es el mismo: vivir intensamente, disfrutar de una noche épica y al día siguiente despertar en un lugar ideal para relajarte y sentirte parte de algo mucho más grande que un simple viaje. Straw Hat no es solo un hostal: es una experiencia que te abraza, un hogar para los espíritus libres que buscan aventuras, amigos y recuerdos que marcan la vida."
   },
+  "salonSombrero": {
+    "title": "SALÓN SOMBRERO CANTINA",
+    "description": "Salón Sombrero Cantina es de las mejores opciones para comer rico. Botanas, tacos de cocina mexicana y una cantina bien puesta.",
+    "experience": "Pides unos tacos, una chela bien fría o un mezcal y te sientas en el jardín sin prisas. El plan fluye solo. Los domingos hay salsa y música en vivo, por si se te antoja quedarte más rato.",
+    "hours": {
+      "title": "ABIERTO TODOS LOS DÍAS DE",
+      "time": "8:30 a.m. a 10:30 p.m."
+    },
+    "price": {
+      "title": "PRECIO PROMEDIO:",
+      "range": "$200 – $300 por persona."
+    },
+    "tagline": "Comer bien, tomar algo y pasarla bien.",
+    "simple": "ASÍ DE SIMPLE."
+  },
   "footer": {
     "findus": "ENCUÉNTRANOS"
   },
