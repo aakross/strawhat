@@ -20,7 +20,7 @@ export default function PortadaTulum() {
         />
 
         {/* Texto debajo del logo */}
-        <div className="font-agrandir text-3xl sm:text-4xl md:text-[30pt] text-white text-center px-40 mb-10">
+        <div className="font-agrandir text-3xl sm:text-4xl md:text-[30pt] text-white text-center px-6 sm:px-20 md:px-40 mb-10 leading-tight">
           {t("tulum.header.description")}
         </div>
         <a
