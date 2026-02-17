@@ -1,4 +1,4 @@
-import portada from "../../assets/portada.jpg";
+import portada from "../../assets/portada.webp";
 import tulum from "../../assets/svg/tulum.svg";
 import pxm from "../../assets/svg/pxm.svg";
 import cdmx from "../../assets/svg/cdmx.svg";

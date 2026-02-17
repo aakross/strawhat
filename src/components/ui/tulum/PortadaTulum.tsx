@@ -24,7 +24,7 @@ export default function PortadaTulum() {
           {t("tulum.header.description")}
         </div>
         <a
-          href="https://hotels.cloudbeds.com/es/reservation/5auK74?currency=mxn"
+          href="https://hotels.cloudbeds.com/es/reservation/Y3kEMm?currency=mxn"
           target="_blanck"
           className="hover:scale-105 transition-transform duration-300 cursor-pointer"
         >

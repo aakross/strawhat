@@ -71,7 +71,7 @@ export default function Pxm() {
         <Footer />
       </div>
       <div>
-        <WhatsApp numero="+529715642523" />
+        <WhatsApp />
       </div>
     </>
   );

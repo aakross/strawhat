@@ -1,4 +1,4 @@
-import portada from "../assets/portada.jpg";
+import portada from "../assets/portada.webp";
 
 export default function Cdmx() {
   return (

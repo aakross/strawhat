@@ -14,6 +14,21 @@
     "since2": "DESDE 2019",
     "description": "Straw Hat nació del sueño compartido de cuatro viajeros de Brasil y México que encontraron en la costa de Oaxaca un lugar donde la vida debía sentirse libre, y llena de historias por contar. Lo que comenzó como un hostal de fiesta alocada se transformó con el tiempo en un concepto único: un espacio donde el surf, la música y la vibra nocturna se mezclan con la calma del descanso y la calidez de una comunidad abierta al mundo. Hoy, esa chispa inicial se ha expandido más allá de su origen, convirtiéndose en tres lugares inolvidables: Puerto Escondido, Tulum y Ciudad de México. En cada uno de ellos, el plan es el mismo: vivir intensamente, disfrutar de una noche épica y al día siguiente despertar en un lugar ideal para relajarte y sentirte parte de algo mucho más grande que un simple viaje. Straw Hat no es solo un hostal: es una experiencia que te abraza, un hogar para los espíritus libres que buscan aventuras, amigos y recuerdos que marcan la vida."
   },
+  "salonSombrero": {
+    "title": "SALÓN SOMBRERO CANTINA",
+    "description": "Salón Sombrero Cantina es de las mejores opciones para comer rico. Botanas, tacos de cocina mexicana y una cantina bien puesta.",
+    "experience": "Pides unos tacos, una chela bien fría o un mezcal y te sientas en el jardín sin prisas. El plan fluye solo. Los domingos hay salsa y música en vivo, por si se te antoja quedarte más rato.",
+    "hours": {
+      "title": "ABIERTO TODOS LOS DÍAS DE",
+      "time": "8:30 a.m. a 10:30 p.m."
+    },
+    "price": {
+      "title": "PRECIO PROMEDIO:",
+      "range": "$200 – $300 por persona."
+    },
+    "tagline": "Comer bien, tomar algo y pasarla bien.",
+    "simple": "ASÍ DE SIMPLE."
+  },
   "footer": {
     "findus": "ENCUÉNTRANOS"
   },
@@ -91,6 +106,22 @@
     "mixed6Feature9": "LUZ DE CAMA PRIVADA",
     "mixed6Feature10": "ALMACENAMIENTO PERSONAL",
     "queenTitle": "HABITACIÓN PRIVADA QUEEN (2 PERSONAS)",
+    "privateRoom": "HABITACIÓN PRIVADA DOBLE SUITE (4 PERSONAS)",
+    "privateRoomRate": "TARIFA CON DESAYUNO INCLUIDO",
+    "privateRoomFeature1": "LITERA DE CAMA MATRIMONIAL",
+    "privateRoomFeature2": "WIFI",
+    "privateRoomFeature3": "AIRE ACONDICIONADO",
+    "privateRoomFeature4": "VENTILADOR",
+    "privateRoomFeature5": "BAÑO PROPIO",
+    "privateRoomFeature6": "BALCÓN Y VISTA AL MAR (SUJETO A DISPONIBILIDAD)",
+    "privateRoom2": "HABITACIÓN PRIVADA MASTER (6 PERSONAS)",
+    "privateRoom2Rate": "TARIFA CON DESAYUNO INCLUIDO",
+    "privateRoom2Feature1": "CAMA QUEEN SIZE + LITERA DE CAMA MATRIMONIAL",
+    "privateRoom2Feature2": "WIFI",
+    "privateRoom2Feature3": "AIRE ACONDICONADO",
+    "privateRoom2Feature4": "VENTILADOR",
+    "privateRoom2Feature5": "BAÑO PROPIO",
+    "privateRoom2Feature6": "BALCÓN Y VISTA AL MAR (SUJETO A DISPONIBILIDAD)",
     "queenRate": "TARIFA CON DESAYUNO INCLUIDO",
     "queenFeature1": "CAMA QUEEN SIZE",
     "queenFeature2": "WIFI",

@@ -14,6 +14,21 @@
     "since2": "SINCE 2019",
     "description": "Straw Hat was born from the shared dream of four travelers from Brazil and Mexico who found on the coast of Oaxaca a place where life should feel free and full of stories to tell. What began as a wild party hostel gradually evolved into a unique concept: a space where surfing, music, and nightlife blend with the calm of rest and the warmth of a community open to the world. Today, that spark has expanded beyond its origin, becoming three unforgettable places: Puerto Escondido, Tulum, and Mexico City. In each one, the plan is the same: live intensely, enjoy an epic night, and the next day wake up in a place perfect for relaxing and feeling part of something much bigger than a simple trip. Straw Hat is not just a hostel, it's an experience that embraces you, a home for free spirits seeking adventures, friends, and memories that last a lifetime."
   },
+  "salonSombrero": {
+    "title": "SALÓN SOMBRERO CANTINA",
+    "description": "Salón Sombrero Cantina is one of the best options for delicious food. Mexican snacks, tacos, and a well-set cantina.",
+    "experience": "Order some tacos, an ice-cold beer or mezcal, and sit in the garden without rush. The plan flows naturally. On Sundays, there's salsa and live music, in case you feel like staying longer.",
+    "hours": {
+      "title": "OPEN EVERY DAY FROM",
+      "time": "8:30 a.m. to 10:30 p.m."
+    },
+    "price": {
+      "title": "AVERAGE PRICE:",
+      "range": "$200 – $300 per person."
+    },
+    "tagline": "Eat well, have a drink, and have a good time.",
+    "simple": "IT'S THAT SIMPLE."
+  },
   "footer": {
     "findus": "FIND US"
   },
@@ -91,6 +106,22 @@
     "mixed6Feature9": "PRIVATE BED LIGHT",
     "mixed6Feature10": "PERSONAL STORAGE",
     "queenTitle": "PRIVATE QUEEN ROOM (2 PEOPLE)",
+    "privateRoom": "PRIVATE DOUBLE SUITE ROOM (4 PEOPLE)",
+    "privateRoomRate": "RATE WITH BREAKFAST INCLUDED",
+    "privateRoomFeature1": "BUNK BED WITH DOUBLE BED",
+    "privateRoomFeature2": "WIFI",
+    "privateRoomFeature3": "AIR CONDITIONING",
+    "privateRoomFeature4": "FAN",
+    "privateRoomFeature5": "PRIVATE BATHROOM",
+    "privateRoomFeature6": "BALCONY AND SEA VIEW (SUBJECT TO AVAILABILITY)",
+    "privateRoom2": "PRIVATE MASTER ROOM (6 PEOPLE)",
+    "privateRoom2Rate": "RATE WITH BREAKFAST INCLUDED",
+    "privateRoom2Feature1": "QUEEN SIZE BED + BUNK BED WITH DOUBLE BED",
+    "privateRoom2Feature2": "WIFI",
+    "privateRoom2Feature3": "AIR CONDITIONING",
+    "privateRoom2Feature4": "FAN",
+    "privateRoom2Feature5": "PRIVATE BATHROOM",
+    "privateRoom2Feature6": "BALCONY AND SEA VIEW (SUBJECT TO AVAILABILITY)",
     "queenRate": "RATE WITH BREAKFAST INCLUDED",
     "queenFeature1": "QUEEN SIZE BED",
     "queenFeature2": "WIFI",

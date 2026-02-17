@@ -51,7 +51,7 @@ export default function Home() {
         <Footer />
       </div>
       <div>
-        <WhatsApp numero="+529715642523" />
+        <WhatsApp />
       </div>
     </>
   );

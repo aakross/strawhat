@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import portadapxm from "../../../assets/pxm/portadapxm.jpg";
+import portadapxm from "../../../assets/pxm/portadapxm.webp";
 import reservabtn from "../../../assets/pxm/svg/reserva.svg";
 import btnpxm from "../../../assets/svg/pxm.svg";
 

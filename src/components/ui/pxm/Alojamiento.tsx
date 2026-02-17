@@ -4,11 +4,13 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useTranslation } from "react-i18next";
-import fondo from "../../../assets/fondovibra.jpg";
+import fondo from "../../../assets/fondovibra1.webp";
 import alo1 from "../../../assets/pxm/alo1.png";
 import alo2 from "../../../assets/pxm/alo2.jpg";
 import alo3 from "../../../assets/pxm/alo3.png";
 import alo4 from "../../../assets/pxm/alo4.jpg";
+import alo5 from "../../../assets/pxm/alo5.webp";
+import alo6 from "../../../assets/pxm/alo6.webp";
 import reservaalo from "../../../assets/pxm/svg/reservaalo.svg";
 
 // ... tus imports existentes
@@ -83,6 +85,36 @@ export default function Alojamiento() {
         t("pxm.queenFeature4"),
         t("pxm.queenFeature5"),
         t("pxm.queenFeature6"),
+      ],
+      link: "https://hotels.cloudbeds.com/es/reservation/5auK74?currency=mxn",
+    },
+    {
+      id: 5,
+      image: alo5, // Asegúrate de importar alo5
+      title: t("pxm.privateRoom"), // "HABITACIÓN PRIVADA DOBLE SUITE (4 PERSONAS)"
+      rate: t("pxm.privateRoomRate"), // "TARIFA CON DESAYUNO INCLUIDO" - NOTA: Cambié a privateRoomRate para ser consistente
+      features: [
+        t("pxm.privateRoomFeature1"), // "LITERA DE CAMA MATRIMONIAL"
+        t("pxm.privateRoomFeature2"), // "WIFI"
+        t("pxm.privateRoomFeature3"), // "AIRE ACONDICIONADO"
+        t("pxm.privateRoomFeature4"), // "VENTILADOR"
+        t("pxm.privateRoomFeature5"), // "BAÑO PROPIO"
+        t("pxm.privateRoomFeature6"), // "BALCÓN Y VISTA AL MAR (SUJETO A DISPONIBILIDAD)"
+      ],
+      link: "https://hotels.cloudbeds.com/es/reservation/5auK74?currency=mxn",
+    },
+    {
+      id: 6,
+      image: alo6, // Asegúrate de importar alo6
+      title: t("pxm.privateRoom2"), // "HABITACIÓN PRIVADA MASTER (6 PERSONAS)"
+      rate: t("pxm.privateRoom2Rate"), // "TARIFA CON DESAYUNO INCLUIDO"
+      features: [
+        t("pxm.privateRoom2Feature1"), // "CAMA QUEEN SIZE + LITERA DE CAMA MATRIMONIAL"
+        t("pxm.privateRoom2Feature2"), // "WIFI"
+        t("pxm.privateRoom2Feature3"), // "AIRE ACONDICIONADO"
+        t("pxm.privateRoom2Feature4"), // "VENTILADOR"
+        t("pxm.privateRoom2Feature5"), // "BAÑO PROPIO"
+        t("pxm.privateRoom2Feature6"), // "BALCÓN Y VISTA AL MAR (SUJETO A DISPONIBILIDAD)"
       ],
       link: "https://hotels.cloudbeds.com/es/reservation/5auK74?currency=mxn",
     },
@@ -174,7 +206,7 @@ export default function Alojamiento() {
                       >
                         <button className="bg-[#141414] font-agrandir text-white rounded-full text-base sm:text-lg hover:bg-[#333] transition cursor-pointer">
                           {/* {t("bookNow")} */}
-                          <img src={reservaalo} alt="" className="w-full"/>
+                          <img src={reservaalo} alt="" className="w-full" />
                         </button>
                       </a>
                     </div>

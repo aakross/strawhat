@@ -4,15 +4,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useTranslation } from "react-i18next";
-import fondo from "../../../assets/fondovibra.jpg";
-import alo1 from "../../../assets/tulum/cuarto1245.jpg";
-import alo2 from "../../../assets/tulum/cuarto6.jpg";
-import alo3 from "../../../assets/tulum/cuarto9.jpg";
-import alo4 from "../../../assets/tulum/cuarto1011.png";
-import alo5 from "../../../assets/tulum/cuarto712.jpeg";
-import alo6 from "../../../assets/tulum/cuarto21.png";
-import alo7 from "../../../assets/tulum/cuarto14.jpg";
-import alo8 from "../../../assets/tulum/cuarto813.png";
+import fondo from "../../../assets/fondovibra1.webp";
+import alo1 from "../../../assets/tulum/cuarto1245.webp";
+import alo2 from "../../../assets/tulum/cuarto6.webp";
+import alo3 from "../../../assets/tulum/cuarto9.webp";
+import alo4 from "../../../assets/tulum/cuarto1011.webp";
+import alo5 from "../../../assets/tulum/cuarto712.webp";
+import alo6 from "../../../assets/tulum/cuarto21.webp";
+import alo7 from "../../../assets/tulum/cuarto14.webp";
+import alo8 from "../../../assets/tulum/cuarto813.webp";
 import reservaalo from "../../../assets/pxm/svg/reservaalo.svg";
 
 // ... tus imports existentes
